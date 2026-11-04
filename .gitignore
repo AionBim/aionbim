@@ -1,0 +1,40 @@
+# =========================================================================
+# GITHUB PAGES .GITIGNORE
+# Ignora arquivos brutos pesados (>50MB) que excedem o limite do GitHub
+# =========================================================================
+
+# Arquivos brutos e renders em alta resolução (300MB - 700MB)
+assets/projects/
+site v03/
+portifolio/
+
+# Arquivos de sistema e SO
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Dependências e artefatos de build locais
+node_modules/
+.pnpm-store/
+dist/
+
+# Configurações e recursos locais do Codex
+.agents/
+.codex/
+
+# Pacote temporário de dependências usado para testes fora do Windows
+_deps.tgz
+
+# Configuracao local do Claude Code
+.claude/
+
+# Pipeline da vitrine: relatórios guardam nomes de arquivos de origem (clientes)
+scripts/vitrine/relatorios/
+
+# IFCs de origem (metadados com nomes e e-mails) e videos de bastidores (nomes de clientes nos arquivos): ficam so na maquina local
+assets/IFC/
+assets/videos/
