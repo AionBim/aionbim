@@ -65,10 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const escapeText = (text) => String(text).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
   function projectCard(p, disciplina) {
+    const local = p.local ? `<span class="project-meta-chip"><i class="ph-bold ph-map-pin"></i> ${escapeText(p.local)}</span>` : '';
     const area = p.area ? `<span class="project-meta-chip" title="Metragem aproximada, calculada a partir de ${escapeText(p.area.base)}"><i class="ph-bold ph-ruler"></i> ≈ ${p.area.valor} m²</span>` : '';
     return `<article class="project-plate" data-modal="${p.id}" tabindex="0" role="button" aria-label="Ver detalhes de ${escapeText(`${disciplina.nome}: ${p.tipo}`)}">
       <div class="project-media-wrap">
-        <img src="${p.capa}" alt="${escapeText(`${disciplina.nome}: ${p.tipo}`)}" class="project-media" loading="lazy" decoding="async">
+        <img src="${p.capa}" alt="${escapeText(`${disciplina.nome}: ${p.tipo}`)}" class="project-media${p.fonte === 'portfolio' ? ' project-media--fit' : ''}" loading="lazy" decoding="async">
         <span class="project-code-tag">${escapeText(disciplina.nome.toUpperCase())}</span>
         ${p.modelo ? '<span class="project-3d-tag"><i class="ph-bold ph-cube"></i> Modelo 3D</span>' : ''}
         <span class="project-count-tag"><i class="ph-bold ph-images"></i> ${p.imagens.length}</span>
@@ -79,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="project-plate-desc">${escapeText(p.resumo)}</p>
         </div>
         <div class="flex flex-wrap items-center gap-1.5 pt-3 border-t border-border-light">
-          ${area}${p.ferramentas.map((t) => `<span class="tech-badge">${escapeText(t)}</span>`).join('')}
+          ${local}${area}${p.ferramentas.map((t) => `<span class="tech-badge">${escapeText(t)}</span>`).join('')}
         </div>
       </div>
     </article>`;
@@ -99,8 +100,13 @@ document.addEventListener('DOMContentLoaded', () => {
     for (const p of data.projetos) {
       const disciplina = disciplinas.get(p.disciplina);
       const destaques = [];
+      if (p.local) destaques.push(`Local: ${p.local}.`);
       if (p.conteudo.length) destaques.push(`Conteúdo: ${p.conteudo.join(', ').toLowerCase()}.`);
-      destaques.push(`${p.imagens.length} ${p.imagens.length > 1 ? 'pranchas publicadas' : 'prancha publicada'}, com carimbo e dados do cliente omitidos.`);
+      if (p.fonte === 'portfolio') {
+        destaques.push(`${p.imagens.length} ${p.imagens.length > 1 ? 'imagens do portfólio da AION' : 'imagem do portfólio da AION'}.`);
+      } else {
+        destaques.push(`${p.imagens.length} ${p.imagens.length > 1 ? 'pranchas publicadas' : 'prancha publicada'}, com carimbo e dados do cliente omitidos.`);
+      }
       if (p.area) destaques.push(`Metragem aproximada de ${p.area.valor} m², obtida a partir de ${p.area.base}.`);
       if (p.modelo) destaques.push('Modelo 3D simples: arraste para girar e role para ampliar. As pranchas ficam na outra aba.');
       projectDetails[p.id] = {

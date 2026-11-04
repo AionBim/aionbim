@@ -167,7 +167,7 @@ body {
   display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .portfolio-desktop-nav {
     display: flex !important;
   }
@@ -632,6 +632,8 @@ body {
   object-position: center;
   transition: transform var(--transition-smooth);
 }
+
+.project-media--fit { object-fit: contain; background: #FFFFFF; }
 
 @media (hover: hover) and (pointer: fine) {
   .project-plate:hover .project-media { transform: scale(1.04); }
