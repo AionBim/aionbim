@@ -21,8 +21,7 @@ npm run build:css         # regenera o tailwind.css (rode depois de mudar classe
 ## Estilos e imagens do site
 
 - **CSS:** `style.css` guarda os componentes do site e `tailwind.css` os utilitários do Tailwind. O `tailwind.css` é gerado (não edite à mão) por `npm run build:css`, que lê `tailwind.config.cjs` e as classes usadas em `index.html`, `script.js` e `src/`. Sempre que usar uma classe Tailwind nova, rode o comando e faça commit do arquivo gerado.
-- **Imagens dos modelos (PPTX):** `PPTX_IMAGENS=<pasta> node scripts/vitrine/imagens-pptx.mjs`, depois do passo abaixo, troca o print do slide pela imagem original do render ou modelo, extraída dos PPTX do portfólio.
-- **Obras do portfólio em PDF:** `node scripts/vitrine/adicionar-portfolio.mjs` lê os PDFs de `../PORTIFÓLIO` e acrescenta à vitrine as obras de clientes pessoa jurídica, citando o nome (pessoa física, carimbos com nomes e fotos de pessoas ficam de fora). Os logos dos parceiros vêm de `scripts/make-partner-assets.mjs`.
+- **Obras dos portfólios (PPTX):** PPTX_IMAGENS=<pasta> node scripts/vitrine/montar-portfolio.mjs monta na vitrine as obras de clientes pessoa jurídica, citando o nome, a partir das imagens originais extraídas dos PPTX (subpastas modelagens/, projetos/, projetos2/, sbuilt/ e 	opografia/). Uma obra aparece em cada disciplina em que a AION atuou (lista CARDS do script). Pessoa física, carimbos com nomes e fotos de pessoas ficam de fora. Os logos dos parceiros vêm de scripts/make-partner-assets.mjs.
 - **Vitrine de projetos:** os cards e o modal são gerados em `script.js` a partir de `assets/vitrine/projetos.json` (obras agrupadas por disciplina). Cada obra tem pranchas em `assets/vitrine/<disciplina>/<obra>/NN.webp`, uma `capa.webp` e, quando há IFC, um modelo 3D simples em `assets/vitrine/modelos/<obra>.frag` (`src/vitrine/MiniViewer.js`: só gira e dá zoom, carregado quando a pessoa abre a aba "Modelo 3D").
 
 ## Pipeline da vitrine (`scripts/vitrine/`)
