@@ -803,14 +803,15 @@
     {
      "src": "assets/vitrine/civil/galeria-costa/01.webp",
      "caption": "Imagem",
-     "w": 1320,
-     "h": 616
+     "w": 808,
+     "h": 531
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "posto-dor",
@@ -825,14 +826,15 @@
     {
      "src": "assets/vitrine/civil/posto-dor/01.webp",
      "caption": "Imagem",
-     "w": 1320,
-     "h": 717
+     "w": 1658,
+     "h": 900
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "clinica-multimed",
@@ -847,14 +849,15 @@
     {
      "src": "assets/vitrine/civil/clinica-multimed/01.webp",
      "caption": "Imagem",
-     "w": 1125,
-     "h": 701
+     "w": 1411,
+     "h": 790
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "comigo-jussara",
@@ -869,14 +872,15 @@
     {
      "src": "assets/vitrine/civil/comigo-jussara/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 2680,
+     "h": 1536
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "vivendas-do-atlantico",
@@ -891,14 +895,15 @@
     {
      "src": "assets/vitrine/civil/vivendas-do-atlantico/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 734,
+     "h": 378
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "maternidade-agusta-de-barros",
@@ -913,14 +918,15 @@
     {
      "src": "assets/vitrine/civil/maternidade-agusta-de-barros/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 941,
+     "h": 441
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "grupo-cesar",
@@ -935,14 +941,15 @@
     {
      "src": "assets/vitrine/civil/grupo-cesar/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1728,
+     "h": 585
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "tjma",
@@ -956,15 +963,28 @@
    "imagens": [
     {
      "src": "assets/vitrine/modelagem/tjma/01.webp",
-     "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "caption": "Imagem 1",
+     "w": 2800,
+     "h": 1671
+    },
+    {
+     "src": "assets/vitrine/modelagem/tjma/02.webp",
+     "caption": "Imagem 2",
+     "w": 2800,
+     "h": 1240
+    },
+    {
+     "src": "assets/vitrine/modelagem/tjma/03.webp",
+     "caption": "Imagem 3",
+     "w": 2746,
+     "h": 2840
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "dub-11",
@@ -979,14 +999,15 @@
     {
      "src": "assets/vitrine/modelagem/dub-11/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 974,
+     "h": 688
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "college-square",
@@ -1001,14 +1022,15 @@
     {
      "src": "assets/vitrine/modelagem/college-square/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 799,
+     "h": 373
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "statestreet",
@@ -1023,14 +1045,15 @@
     {
      "src": "assets/vitrine/modelagem/statestreet/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1285,
+     "h": 753
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "dec-maranhao",
@@ -1045,14 +1068,15 @@
     {
      "src": "assets/vitrine/modelagem/dec-maranhao/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 574,
+     "h": 817
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "solidez",
@@ -1066,15 +1090,22 @@
    "imagens": [
     {
      "src": "assets/vitrine/modelagem/solidez/01.webp",
-     "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "caption": "Imagem 1",
+     "w": 2800,
+     "h": 2701
+    },
+    {
+     "src": "assets/vitrine/modelagem/solidez/02.webp",
+     "caption": "Imagem 2",
+     "w": 2745,
+     "h": 2840
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "ipec",
@@ -1088,15 +1119,22 @@
    "imagens": [
     {
      "src": "assets/vitrine/modelagem/ipec/01.webp",
-     "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "caption": "Imagem 1",
+     "w": 1682,
+     "h": 1071
+    },
+    {
+     "src": "assets/vitrine/modelagem/ipec/02.webp",
+     "caption": "Imagem 2",
+     "w": 1620,
+     "h": 765
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "jorlan",
@@ -1110,15 +1148,22 @@
    "imagens": [
     {
      "src": "assets/vitrine/modelagem/jorlan/01.webp",
-     "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "caption": "Imagem 1",
+     "w": 2294,
+     "h": 1249
+    },
+    {
+     "src": "assets/vitrine/modelagem/jorlan/02.webp",
+     "caption": "Imagem 2",
+     "w": 1608,
+     "h": 775
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "shalom-empreendimentos",
@@ -1133,14 +1178,15 @@
     {
      "src": "assets/vitrine/modelagem/shalom-empreendimentos/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 2518,
+     "h": 1854
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "forum-aparecida",
@@ -1155,14 +1201,15 @@
     {
      "src": "assets/vitrine/modelagem/forum-aparecida/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1427,
+     "h": 839
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "sesc-guarapuava",
@@ -1177,14 +1224,15 @@
     {
      "src": "assets/vitrine/modelagem/sesc-guarapuava/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 638,
+     "h": 301
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "forum-anapolis",
@@ -1199,14 +1247,15 @@
     {
      "src": "assets/vitrine/modelagem/forum-anapolis/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1171,
+     "h": 951
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "hupes",
@@ -1221,14 +1270,15 @@
     {
      "src": "assets/vitrine/modelagem/hupes/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 901,
+     "h": 527
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "hospital-univasf",
@@ -1243,14 +1293,15 @@
     {
      "src": "assets/vitrine/modelagem/hospital-univasf/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 945,
+     "h": 594
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "furnas",
@@ -1265,14 +1316,15 @@
     {
      "src": "assets/vitrine/modelagem/furnas/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1500,
+     "h": 840
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "hospital-ufba",
@@ -1287,14 +1339,15 @@
     {
      "src": "assets/vitrine/modelagem/hospital-ufba/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1555,
+     "h": 820
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "nuveen",
@@ -1309,14 +1362,15 @@
     {
      "src": "assets/vitrine/modelagem/nuveen/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 2460,
+     "h": 1690
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "jardins-berlim",
@@ -1331,14 +1385,15 @@
     {
      "src": "assets/vitrine/modelagem/jardins-berlim/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1285,
+     "h": 729
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "quantitativos-interativos",
@@ -1353,20 +1408,21 @@
     {
      "src": "assets/vitrine/modelagem/quantitativos-interativos/01.webp",
      "caption": "Imagem 1",
-     "w": 2000,
-     "h": 1125
+     "w": 2182,
+     "h": 1303
     },
     {
      "src": "assets/vitrine/modelagem/quantitativos-interativos/02.webp",
      "caption": "Imagem 2",
-     "w": 2000,
-     "h": 1125
+     "w": 2182,
+     "h": 1306
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "crea-parana",
@@ -1381,14 +1437,15 @@
     {
      "src": "assets/vitrine/fiscalizacao/crea-parana/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 817,
+     "h": 657
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "ministerio-publico",
@@ -1403,14 +1460,15 @@
     {
      "src": "assets/vitrine/fiscalizacao/ministerio-publico/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 623,
+     "h": 483
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "buriti-shopping",
@@ -1425,14 +1483,15 @@
     {
      "src": "assets/vitrine/asbuilt/buriti-shopping/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1312,
+     "h": 613
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "edificacao-comercial-goiania",
@@ -1447,14 +1506,15 @@
     {
      "src": "assets/vitrine/asbuilt/edificacao-comercial-goiania/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1406,
+     "h": 828
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "carrefour",
@@ -1469,14 +1529,15 @@
     {
      "src": "assets/vitrine/asbuilt/carrefour/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1113,
+     "h": 531
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "central-de-decorados-city",
@@ -1491,20 +1552,33 @@
     {
      "src": "assets/vitrine/asbuilt/central-de-decorados-city/01.webp",
      "caption": "Imagem 1",
-     "w": 2000,
-     "h": 1125
+     "w": 2320,
+     "h": 1541
     },
     {
      "src": "assets/vitrine/asbuilt/central-de-decorados-city/02.webp",
      "caption": "Imagem 2",
-     "w": 2000,
-     "h": 1125
+     "w": 1489,
+     "h": 886
+    },
+    {
+     "src": "assets/vitrine/asbuilt/central-de-decorados-city/03.webp",
+     "caption": "Imagem 3",
+     "w": 1728,
+     "h": 1282
+    },
+    {
+     "src": "assets/vitrine/asbuilt/central-de-decorados-city/04.webp",
+     "caption": "Imagem 4",
+     "w": 1728,
+     "h": 1135
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "strip-mall",
@@ -1519,14 +1593,15 @@
     {
      "src": "assets/vitrine/asbuilt/strip-mall/01.webp",
      "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "w": 1230,
+     "h": 777
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "ginasio-rio-vermelho",
@@ -1540,15 +1615,22 @@
    "imagens": [
     {
      "src": "assets/vitrine/asbuilt/ginasio-rio-vermelho/01.webp",
-     "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "caption": "Imagem 1",
+     "w": 2320,
+     "h": 1207
+    },
+    {
+     "src": "assets/vitrine/asbuilt/ginasio-rio-vermelho/02.webp",
+     "caption": "Imagem 2",
+     "w": 1728,
+     "h": 1062
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "assembleia-de-deus",
@@ -1563,20 +1645,33 @@
     {
      "src": "assets/vitrine/asbuilt/assembleia-de-deus/01.webp",
      "caption": "Imagem 1",
-     "w": 2000,
-     "h": 1125
+     "w": 2248,
+     "h": 1648
     },
     {
      "src": "assets/vitrine/asbuilt/assembleia-de-deus/02.webp",
      "caption": "Imagem 2",
-     "w": 2000,
-     "h": 1125
+     "w": 2320,
+     "h": 1393
+    },
+    {
+     "src": "assets/vitrine/asbuilt/assembleia-de-deus/03.webp",
+     "caption": "Imagem 3",
+     "w": 1728,
+     "h": 1164
+    },
+    {
+     "src": "assets/vitrine/asbuilt/assembleia-de-deus/04.webp",
+     "caption": "Imagem 4",
+     "w": 1385,
+     "h": 935
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "complexo-serra-dourada",
@@ -1591,20 +1686,33 @@
     {
      "src": "assets/vitrine/topografia/complexo-serra-dourada/01.webp",
      "caption": "Imagem 1",
-     "w": 2000,
-     "h": 1125
+     "w": 2320,
+     "h": 1700
     },
     {
      "src": "assets/vitrine/topografia/complexo-serra-dourada/02.webp",
      "caption": "Imagem 2",
-     "w": 2000,
-     "h": 1125
+     "w": 2320,
+     "h": 1700
+    },
+    {
+     "src": "assets/vitrine/topografia/complexo-serra-dourada/03.webp",
+     "caption": "Imagem 3",
+     "w": 2320,
+     "h": 1722
+    },
+    {
+     "src": "assets/vitrine/topografia/complexo-serra-dourada/04.webp",
+     "caption": "Imagem 4",
+     "w": 1272,
+     "h": 956
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "rio-meia-ponte",
@@ -1619,20 +1727,21 @@
     {
      "src": "assets/vitrine/topografia/rio-meia-ponte/01.webp",
      "caption": "Imagem 1",
-     "w": 2000,
-     "h": 1125
+     "w": 1171,
+     "h": 879
     },
     {
      "src": "assets/vitrine/topografia/rio-meia-ponte/02.webp",
      "caption": "Imagem 2",
-     "w": 2000,
-     "h": 1125
+     "w": 2198,
+     "h": 1484
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   },
   {
    "id": "oho-hotel",
@@ -1646,15 +1755,28 @@
    "imagens": [
     {
      "src": "assets/vitrine/topografia/oho-hotel/01.webp",
-     "caption": "Imagem",
-     "w": 2000,
-     "h": 1125
+     "caption": "Imagem 1",
+     "w": 1728,
+     "h": 1388
+    },
+    {
+     "src": "assets/vitrine/topografia/oho-hotel/02.webp",
+     "caption": "Imagem 2",
+     "w": 1728,
+     "h": 1368
+    },
+    {
+     "src": "assets/vitrine/topografia/oho-hotel/03.webp",
+     "caption": "Imagem 3",
+     "w": 2320,
+     "h": 1648
     }
    ],
    "conteudo": [],
    "area": null,
    "modelo": null,
-   "modeloMB": null
+   "modeloMB": null,
+   "origem": "pptx"
   }
  ]
 }
