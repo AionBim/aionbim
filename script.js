@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  fetch('assets/vitrine/projetos.json')
+  fetch('assets/vitrine/projetos.json', { cache: 'no-cache' })
     .then((response) => response.json())
     .then((data) => {
       renderVitrine(data);
@@ -435,7 +435,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (pluginsTabs && pluginsGrid) {
-    fetch('assets/plugins/plugins.json')
+    fetch('assets/plugins/plugins.json', { cache: 'no-cache' })
       .then((response) => response.json())
       .then((data) => {
         pluginsData = data;
