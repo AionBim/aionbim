@@ -1,0 +1,2677 @@
+{
+ "disciplinas": [
+  {
+   "id": "arquitetura",
+   "nome": "Arquitetura",
+   "icone": "ph-house-line"
+  },
+  {
+   "id": "estrutural",
+   "nome": "Estrutural",
+   "icone": "ph-columns"
+  },
+  {
+   "id": "hidrossanitario",
+   "nome": "Hidrossanitário",
+   "icone": "ph-drop"
+  },
+  {
+   "id": "eletrico",
+   "nome": "Elétrico",
+   "icone": "ph-lightning"
+  },
+  {
+   "id": "incendio",
+   "nome": "Incêndio",
+   "icone": "ph-fire-extinguisher"
+  },
+  {
+   "id": "infra",
+   "nome": "Infraestrutura e terraplenagem",
+   "icone": "ph-road-horizon"
+  },
+  {
+   "id": "compatibilizacao",
+   "nome": "Compatibilização, coordenação e fiscalização BIM",
+   "icone": "ph-checks"
+  },
+  {
+   "id": "quantitativos",
+   "nome": "Quantitativos e planejamento de obra",
+   "icone": "ph-list-numbers"
+  },
+  {
+   "id": "asbuilt",
+   "nome": "As-built e nuvem de pontos",
+   "icone": "ph-scan"
+  },
+  {
+   "id": "topografia",
+   "nome": "Topografia",
+   "icone": "ph-map-trifold"
+  }
+ ],
+ "projetos": [
+  {
+   "id": "sobrado-fundacao-estacas",
+   "disciplina": "estrutural",
+   "tipo": "Residência térrea com cobertura",
+   "resumo": "Fundação em estacas e blocos, vigas, lajes e barrilete.",
+   "ferramentas": [
+    "Eberick",
+    "AutoCAD"
+   ],
+   "capa": "assets/vitrine/estrutural/sobrado-fundacao-estacas/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/sobrado-fundacao-estacas/01.webp",
+     "caption": "Térreo · Locação",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-fundacao-estacas/02.webp",
+     "caption": "Térreo · Formas",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-fundacao-estacas/03.webp",
+     "caption": "Térreo · Fundações",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-fundacao-estacas/04.webp",
+     "caption": "Cobertura · Formas",
+     "w": 2400,
+     "h": 1728
+    }
+   ],
+   "conteudo": [
+    "Térreo · Locação",
+    "Térreo · Formas",
+    "Térreo · Fundações",
+    "Cobertura · Formas"
+   ],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "sobrado-concreto-armado",
+   "disciplina": "estrutural",
+   "tipo": "Sobrado em concreto armado",
+   "resumo": "Locação, formas, fundações, pilares, vigas, escada e lajes.",
+   "ferramentas": [
+    "Eberick",
+    "Revit"
+   ],
+   "capa": "assets/vitrine/estrutural/sobrado-concreto-armado/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/sobrado-concreto-armado/01.webp",
+     "caption": "Locação",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-concreto-armado/02.webp",
+     "caption": "Formas",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-concreto-armado/03.webp",
+     "caption": "Fundações",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-concreto-armado/04.webp",
+     "caption": "Vigas",
+     "w": 2400,
+     "h": 1696
+    }
+   ],
+   "conteudo": [
+    "Locação",
+    "Formas",
+    "Fundações",
+    "Vigas"
+   ],
+   "area": {
+    "valor": 240,
+    "base": "lajes do modelo estrutural"
+   },
+   "modelo": "assets/vitrine/modelos/sobrado-concreto-armado.frag",
+   "modeloMB": null
+  },
+  {
+   "id": "residencia-alto-padrao-piscina",
+   "disciplina": "estrutural",
+   "tipo": "Residência de alto padrão com piscina",
+   "resumo": "Projeto estrutural completo com fundações, pilares, vigas, lajes e piscina.",
+   "ferramentas": [
+    "Eberick",
+    "Revit"
+   ],
+   "capa": "assets/vitrine/estrutural/residencia-alto-padrao-piscina/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/residencia-alto-padrao-piscina/01.webp",
+     "caption": "Locação",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/estrutural/residencia-alto-padrao-piscina/02.webp",
+     "caption": "Fundações",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/residencia-alto-padrao-piscina/03.webp",
+     "caption": "Vigas",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/residencia-alto-padrao-piscina/04.webp",
+     "caption": "Piscina",
+     "w": 2400,
+     "h": 1696
+    }
+   ],
+   "conteudo": [
+    "Locação",
+    "Fundações",
+    "Vigas",
+    "Piscina"
+   ],
+   "area": {
+    "valor": 200,
+    "base": "lajes do modelo estrutural"
+   },
+   "modelo": "assets/vitrine/modelos/residencia-alto-padrao-piscina.frag",
+   "modeloMB": null
+  },
+  {
+   "id": "sobrado-popular",
+   "disciplina": "estrutural",
+   "tipo": "Sobrado popular",
+   "resumo": "Térreo, 1º pavimento e cobertura em concreto armado.",
+   "ferramentas": [
+    "Eberick",
+    "AutoCAD"
+   ],
+   "capa": "assets/vitrine/estrutural/sobrado-popular/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/sobrado-popular/01.webp",
+     "caption": "Térreo · Locação",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-popular/02.webp",
+     "caption": "Térreo · Fundações",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-popular/03.webp",
+     "caption": "1º pavimento · Formas",
+     "w": 2400,
+     "h": 1728
+    },
+    {
+     "src": "assets/vitrine/estrutural/sobrado-popular/04.webp",
+     "caption": "Cobertura · Formas",
+     "w": 2400,
+     "h": 1728
+    }
+   ],
+   "conteudo": [
+    "Térreo · Locação",
+    "Térreo · Fundações",
+    "1º pavimento · Formas",
+    "Cobertura · Formas"
+   ],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "edificacao-estrutura-metalica",
+   "disciplina": "estrutural",
+   "tipo": "Edificação em estrutura metálica",
+   "resumo": "Estacas, baldrames, vigas, cortes e detalhes de cobertura e ligações.",
+   "ferramentas": [
+    "Cype 3D",
+    "Revit",
+    "Estrutura metálica"
+   ],
+   "capa": "assets/vitrine/estrutural/edificacao-estrutura-metalica/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/edificacao-estrutura-metalica/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1697
+    },
+    {
+     "src": "assets/vitrine/estrutural/edificacao-estrutura-metalica/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1697
+    },
+    {
+     "src": "assets/vitrine/estrutural/edificacao-estrutura-metalica/03.webp",
+     "caption": "Prancha 3",
+     "w": 2400,
+     "h": 1697
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "sobrado-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Sobrado",
+   "resumo": "Plantas de água fria, esgoto e pluvial com detalhes e quantitativos.",
+   "ferramentas": [
+    "Revit MEP"
+   ],
+   "capa": "assets/vitrine/hidrossanitario/sobrado-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-hidrossanitario/01.webp",
+     "caption": "Prancha 1",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-hidrossanitario/02.webp",
+     "caption": "Prancha 2",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-hidrossanitario/03.webp",
+     "caption": "Prancha 3",
+     "w": 1700,
+     "h": 2459
+    }
+   ],
+   "conteudo": [],
+   "area": {
+    "valor": 240,
+    "base": "lajes do modelo estrutural da mesma obra"
+   },
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "residencia-alto-padrao-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Residência de alto padrão",
+   "resumo": "Plantas, vistas dos ambientes e isométricos 3D hidráulico, sanitário e pluvial.",
+   "ferramentas": [
+    "Revit MEP"
+   ],
+   "capa": "assets/vitrine/hidrossanitario/residencia-alto-padrao-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/residencia-alto-padrao-hidrossanitario/01.webp",
+     "caption": "Projetos hidrossanitários",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/residencia-alto-padrao-hidrossanitario/02.webp",
+     "caption": "Vistas dos ambientes",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/residencia-alto-padrao-hidrossanitario/03.webp",
+     "caption": "Cobertura e 3D hidráulico",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/residencia-alto-padrao-hidrossanitario/04.webp",
+     "caption": "Cobertura e 3D sanitário e pluvial",
+     "w": 1700,
+     "h": 2459
+    }
+   ],
+   "conteudo": [
+    "Projetos hidrossanitários",
+    "Vistas dos ambientes",
+    "Cobertura e 3D hidráulico",
+    "Cobertura e 3D sanitário e pluvial"
+   ],
+   "area": {
+    "valor": 200,
+    "base": "lajes do modelo estrutural da mesma obra"
+   },
+   "modelo": "assets/vitrine/modelos/residencia-alto-padrao-hidrossanitario.frag",
+   "modeloMB": null
+  },
+  {
+   "id": "sobrado-popular-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Sobrado popular",
+   "resumo": "Plantas por pavimento, isométrico geral e lista de materiais.",
+   "ferramentas": [
+    "Revit MEP"
+   ],
+   "capa": "assets/vitrine/hidrossanitario/sobrado-popular-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-popular-hidrossanitario/01.webp",
+     "caption": "Prancha 1",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-popular-hidrossanitario/02.webp",
+     "caption": "Prancha 2",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-popular-hidrossanitario/03.webp",
+     "caption": "Prancha 3",
+     "w": 1700,
+     "h": 2459
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/sobrado-popular-hidrossanitario/04.webp",
+     "caption": "Prancha 4",
+     "w": 1700,
+     "h": 2459
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "cozinha-industrial-asbuilt",
+   "disciplina": "hidrossanitario",
+   "tipo": "Cozinha industrial de edificação pública",
+   "resumo": "As-built hidrossanitário com plantas e cortes dos ambientes.",
+   "ferramentas": [
+    "Revit MEP",
+    "As-built"
+   ],
+   "capa": "assets/vitrine/hidrossanitario/cozinha-industrial-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/cozinha-industrial-asbuilt/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/cozinha-industrial-asbuilt/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1698
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "edificacao-publica-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Edificação pública",
+   "resumo": "Instalações hidráulicas, notas e detalhes de fixação e compartimentação.",
+   "ferramentas": [
+    "Revit MEP"
+   ],
+   "capa": "assets/vitrine/hidrossanitario/edificacao-publica-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/edificacao-publica-hidrossanitario/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/edificacao-publica-hidrossanitario/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1153
+    },
+    {
+     "src": "assets/vitrine/hidrossanitario/edificacao-publica-hidrossanitario/03.webp",
+     "caption": "Prancha 3",
+     "w": 2400,
+     "h": 1153
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "edificacao-publica-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Edificação pública (as-built)",
+   "resumo": "Cabeamento estruturado e projeto elétrico em dois pavimentos.",
+   "ferramentas": [
+    "Revit Electrical",
+    "As-built"
+   ],
+   "capa": "assets/vitrine/eletrico/edificacao-publica-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/edificacao-publica-eletrico/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/eletrico/edificacao-publica-eletrico/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1698
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "residencia-alto-padrao-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Residência de alto padrão",
+   "resumo": "Pontos elétricos, circuitos e quadros de carga.",
+   "ferramentas": [
+    "Revit Electrical",
+    "IFC"
+   ],
+   "capa": "assets/vitrine/eletrico/residencia-alto-padrao-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/residencia-alto-padrao-eletrico/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/eletrico/residencia-alto-padrao-eletrico/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1698
+    }
+   ],
+   "conteudo": [],
+   "area": {
+    "valor": 200,
+    "base": "lajes do modelo estrutural da mesma obra"
+   },
+   "modelo": "assets/vitrine/modelos/residencia-alto-padrao-eletrico.frag",
+   "modeloMB": null
+  },
+  {
+   "id": "sobrado-popular-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Sobrado popular",
+   "resumo": "Plantas de pontos elétricos por pavimento.",
+   "ferramentas": [
+    "Revit Electrical"
+   ],
+   "capa": "assets/vitrine/eletrico/sobrado-popular-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/sobrado-popular-eletrico/01.webp",
+     "caption": "Prancha",
+     "w": 1700,
+     "h": 2459
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "sobrado-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Sobrado",
+   "resumo": "Pontos elétricos, quadros de carga e diagramas.",
+   "ferramentas": [
+    "Revit Electrical"
+   ],
+   "capa": "assets/vitrine/eletrico/sobrado-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/sobrado-eletrico/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/eletrico/sobrado-eletrico/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1698
+    }
+   ],
+   "conteudo": [],
+   "area": {
+    "valor": 240,
+    "base": "lajes do modelo estrutural da mesma obra"
+   },
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "edificacao-publica-ppci",
+   "disciplina": "incendio",
+   "tipo": "Edificação pública",
+   "resumo": "Projeto de prevenção e proteção contra incêndio e pânico.",
+   "ferramentas": [
+    "Revit MEP"
+   ],
+   "capa": "assets/vitrine/incendio/edificacao-publica-ppci/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/incendio/edificacao-publica-ppci/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1461
+    },
+    {
+     "src": "assets/vitrine/incendio/edificacao-publica-ppci/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1153
+    },
+    {
+     "src": "assets/vitrine/incendio/edificacao-publica-ppci/03.webp",
+     "caption": "Prancha 3",
+     "w": 2400,
+     "h": 1293
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": "assets/vitrine/modelos/edificacao-publica-ppci.frag",
+   "modeloMB": 4.7
+  },
+  {
+   "id": "edificio-comercial-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Edifício comercial",
+   "resumo": "As-built de alarme de incêndio, elétrica e sistemas a partir de DWG e visitas técnicas.",
+   "ferramentas": [
+    "Revit",
+    "AutoCAD",
+    "As-built"
+   ],
+   "capa": "assets/vitrine/asbuilt/edificio-comercial-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/edificio-comercial-asbuilt/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/asbuilt/edificio-comercial-asbuilt/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/asbuilt/edificio-comercial-asbuilt/03.webp",
+     "caption": "Prancha 3",
+     "w": 2400,
+     "h": 1698
+    },
+    {
+     "src": "assets/vitrine/asbuilt/edificio-comercial-asbuilt/04.webp",
+     "caption": "Prancha 4",
+     "w": 2400,
+     "h": 1698
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "levantamento-nuvem-de-pontos",
+   "disciplina": "asbuilt",
+   "tipo": "Levantamento por nuvem de pontos",
+   "resumo": "Processamento de nuvem de pontos para volumetria de vegetação, topografia e modelo as-built.",
+   "ferramentas": [
+    "CloudCompare",
+    "Revit"
+   ],
+   "capa": "assets/vitrine/asbuilt/levantamento-nuvem-de-pontos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/levantamento-nuvem-de-pontos/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1428
+    },
+    {
+     "src": "assets/vitrine/asbuilt/levantamento-nuvem-de-pontos/02.webp",
+     "caption": "Prancha 2",
+     "w": 1774,
+     "h": 1047
+    },
+    {
+     "src": "assets/vitrine/asbuilt/levantamento-nuvem-de-pontos/03.webp",
+     "caption": "Prancha 3",
+     "w": 1420,
+     "h": 1090
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "empreendimento-funerario-terraplenagem",
+   "disciplina": "topografia",
+   "tipo": "Empreendimento funerário",
+   "resumo": "Planta de patamarização, perfis e locação do muro de arrimo.",
+   "ferramentas": [
+    "Civil 3D",
+    "AutoCAD"
+   ],
+   "capa": "assets/vitrine/topografia/empreendimento-funerario-terraplenagem/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/empreendimento-funerario-terraplenagem/01.webp",
+     "caption": "Prancha 1",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/topografia/empreendimento-funerario-terraplenagem/02.webp",
+     "caption": "Prancha 2",
+     "w": 2400,
+     "h": 1696
+    },
+    {
+     "src": "assets/vitrine/topografia/empreendimento-funerario-terraplenagem/03.webp",
+     "caption": "Prancha 3",
+     "w": 2400,
+     "h": 1696
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "propriedade-rural-terraplenagem",
+   "disciplina": "topografia",
+   "tipo": "Propriedade rural",
+   "resumo": "Levantamento por aerofotogrametria, curvas de nível e cálculo de corte e aterro.",
+   "ferramentas": [
+    "Civil 3D",
+    "Terraplenagem"
+   ],
+   "capa": "assets/vitrine/topografia/propriedade-rural-terraplenagem/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/propriedade-rural-terraplenagem/01.webp",
+     "caption": "Prancha",
+     "w": 2400,
+     "h": 1695
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "lote-urbano-planialtimetrico",
+   "disciplina": "topografia",
+   "tipo": "Lote urbano",
+   "resumo": "Levantamento planialtimétrico com modelo do terreno.",
+   "ferramentas": [
+    "Civil 3D",
+    "Planialtimetria"
+   ],
+   "capa": "assets/vitrine/topografia/lote-urbano-planialtimetrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/lote-urbano-planialtimetrico/01.webp",
+     "caption": "Prancha",
+     "w": 2400,
+     "h": 1695
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "gleba-demarcacao-georreferenciada",
+   "disciplina": "topografia",
+   "tipo": "Gleba rural",
+   "resumo": "Demarcação em UTM/SIRGAS 2000 com áreas e confrontações para regularização.",
+   "ferramentas": [
+    "QGIS",
+    "Georreferenciamento"
+   ],
+   "capa": "assets/vitrine/topografia/gleba-demarcacao-georreferenciada/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/gleba-demarcacao-georreferenciada/01.webp",
+     "caption": "Prancha",
+     "w": 2400,
+     "h": 1695
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galeria-costa-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Galeria Costa",
+   "local": "Rio Verde/GO",
+   "resumo": "Projeto de arquitetura e modelagem BIM de galeria comercial.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/galeria-costa-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/galeria-costa-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 808,
+     "h": 531
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "posto-dor-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Posto D’or",
+   "local": "Senador Canedo/GO",
+   "resumo": "Projeto de arquitetura de posto de combustíveis.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/posto-dor-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/posto-dor-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1658,
+     "h": 900
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "clinica-multimed-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Clínica Multimed",
+   "local": "Goiânia/GO",
+   "resumo": "Arquitetura com alto nível de detalhamento para execução de reforma, com extração de quantitativos e compatibilização com estrutura e projetos complementares.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/clinica-multimed-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/clinica-multimed-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1411,
+     "h": 790
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "comigo-jussara-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "COMIGO Jussara",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto e modelagem BIM de arquitetura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/comigo-jussara-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/comigo-jussara-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 2680,
+     "h": 1536
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "vivendas-do-atlantico-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Vivendas do Atlântico",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto e modelagem BIM de arquitetura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/vivendas-do-atlantico-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/vivendas-do-atlantico-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 734,
+     "h": 378
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "maternidade-agusta-de-barros-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Maternidade Agusta de Barros",
+   "local": "Rio Verde/GO",
+   "resumo": "Projeto e modelagem BIM de arquitetura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/maternidade-agusta-de-barros-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/maternidade-agusta-de-barros-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 941,
+     "h": 441
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "tjma-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "TJMA",
+   "local": "Imperatriz/MA",
+   "resumo": "Modelagem BIM de arquitetura e do entorno, parte do modelo multidisciplinar do edifício.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/tjma-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/tjma-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 2800,
+     "h": 1240
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "dub-11-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "DUB 11",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM de arquitetura, implantação, paisagismo e entorno, para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/dub-11-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/dub-11-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 974,
+     "h": 688
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "college-square-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "College Square",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM de arquitetura, implantação e entorno, para planejamento, logística e acompanhamento de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/college-square-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/college-square-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 799,
+     "h": 373
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "statestreet-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Statestreet",
+   "local": "Kilkenny, Irlanda",
+   "resumo": "Modelagem BIM de arquitetura, implantação e entorno, para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/statestreet-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/statestreet-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 753
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "solidez-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Solidez",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem BIM de arquitetura a partir de nuvem de pontos fornecida pela Arismar Topografia.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/solidez-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/solidez-arquitetura/01.webp",
+     "caption": "Imagem 1",
+     "w": 2800,
+     "h": 2701
+    },
+    {
+     "src": "assets/vitrine/arquitetura/solidez-arquitetura/02.webp",
+     "caption": "Imagem 2",
+     "w": 2745,
+     "h": 2840
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "jorlan-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Jorlan",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem arquitetônica BIM para documentação.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/jorlan-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/jorlan-arquitetura/01.webp",
+     "caption": "Imagem 1",
+     "w": 2294,
+     "h": 1249
+    },
+    {
+     "src": "assets/vitrine/arquitetura/jorlan-arquitetura/02.webp",
+     "caption": "Imagem 2",
+     "w": 1608,
+     "h": 775
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "shalom-empreendimentos-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Shalom Empreendimentos",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem BIM da arquitetura e da topografia.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/shalom-empreendimentos-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/shalom-empreendimentos-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 2518,
+     "h": 1854
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "ipec-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "IPEC",
+   "local": "Pirenópolis/GO",
+   "resumo": "Modelagem BIM das edificações de uma área de fazenda.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/ipec-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/ipec-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1682,
+     "h": 1071
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "dec-maranhao-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "DEC Maranhão",
+   "local": "Anápolis/GO",
+   "resumo": "Consultoria e implementação BIM para a disciplina de interiores: criação de famílias, templates e bibliotecas BIM.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/dec-maranhao-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/dec-maranhao-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 574,
+     "h": 817
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "forum-aparecida-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Fórum de Justiça de Aparecida",
+   "local": "Aparecida de Goiânia/GO",
+   "resumo": "Modelagem BIM de arquitetura, interiores, implantação e entorno, para reforma.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/forum-aparecida-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/forum-aparecida-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1427,
+     "h": 839
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "sesc-guarapuava-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "SESC Guarapuava",
+   "local": "Paraná",
+   "resumo": "Modelagem BIM de arquitetura para projeto de retrofit e projetos complementares.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/sesc-guarapuava-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/sesc-guarapuava-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 638,
+     "h": 301
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "forum-anapolis-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Fórum de Justiça de Anápolis",
+   "local": "Anápolis/GO",
+   "resumo": "Modelagem BIM do fórum.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/forum-anapolis-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/forum-anapolis-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1171,
+     "h": 951
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "hupes-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "HUPES",
+   "local": "Salvador/BA",
+   "resumo": "Modelagem BIM de arquitetura, interiores, implantação e entorno, para reforma.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/hupes-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/hupes-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 901,
+     "h": 527
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "hospital-univasf-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Hospital UNIVASF",
+   "local": "Petrolina e Juazeiro",
+   "resumo": "Modelagem BIM de arquitetura, interiores, implantação e entorno, para reforma.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/hospital-univasf-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/hospital-univasf-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 945,
+     "h": 594
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "hospital-ufba-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Hospital Universitário UFBA",
+   "local": "Salvador/BA",
+   "resumo": "Levantamento e modelagem BIM de arquitetura e terreno.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/hospital-ufba-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/hospital-ufba-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1555,
+     "h": 820
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "assembleia-de-deus-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Assembleia de Deus",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem e documentação BIM de arquitetura da edificação.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/assembleia-de-deus-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/assembleia-de-deus-arquitetura/01.webp",
+     "caption": "Imagem 1",
+     "w": 2248,
+     "h": 1648
+    },
+    {
+     "src": "assets/vitrine/arquitetura/assembleia-de-deus-arquitetura/02.webp",
+     "caption": "Imagem 2",
+     "w": 2320,
+     "h": 1393
+    },
+    {
+     "src": "assets/vitrine/arquitetura/assembleia-de-deus-arquitetura/03.webp",
+     "caption": "Imagem 3",
+     "w": 1728,
+     "h": 1164
+    },
+    {
+     "src": "assets/vitrine/arquitetura/assembleia-de-deus-arquitetura/04.webp",
+     "caption": "Imagem 4",
+     "w": 1385,
+     "h": 935
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "grupo-cesar-arquitetura",
+   "disciplina": "arquitetura",
+   "tipo": "Grupo Cesar",
+   "local": "Aparecida de Goiânia/GO",
+   "resumo": "Modelagem e projeto de readequação de arquitetura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/arquitetura/grupo-cesar-arquitetura/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/grupo-cesar-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1728,
+     "h": 585
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "tjma-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "TJMA",
+   "local": "Imperatriz/MA",
+   "resumo": "Modelagem BIM da estrutura do edifício, em modelo coordenado com as demais disciplinas.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/tjma-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/tjma-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 2800,
+     "h": 1671
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galeria-costa-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "Galeria Costa",
+   "local": "Rio Verde/GO",
+   "resumo": "Projeto estrutural e de fundações de galeria comercial.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/galeria-costa-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/galeria-costa-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 808,
+     "h": 531
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galpoes-cerejeiras-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "Galpões Cerejeiras",
+   "local": "Anápolis/GO",
+   "resumo": "Projeto estrutural de galpões.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/galpoes-cerejeiras-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/galpoes-cerejeiras-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 1592,
+     "h": 456
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "dub-11-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "DUB 11",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM da estrutura, para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/dub-11-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/dub-11-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 974,
+     "h": 688
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "college-square-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "College Square",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM da estrutura, para planejamento, logística e acompanhamento de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/college-square-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/college-square-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 799,
+     "h": 373
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "statestreet-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "Statestreet",
+   "local": "Kilkenny, Irlanda",
+   "resumo": "Modelagem BIM da estrutura, para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/statestreet-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/statestreet-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 753
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "jardins-berlim-estrutural",
+   "disciplina": "estrutural",
+   "tipo": "Jardins Berlim",
+   "local": "Senador Canedo/GO",
+   "resumo": "Modelagem BIM da estrutura e das fundações das casas do empreendimento.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/estrutural/jardins-berlim-estrutural/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/jardins-berlim-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 729
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "tjma-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "TJMA",
+   "local": "Imperatriz/MA",
+   "resumo": "Modelagem BIM das instalações hidrossanitárias, no modelo MEP do edifício.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/hidrossanitario/tjma-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/tjma-hidrossanitario/01.webp",
+     "caption": "Imagem",
+     "w": 2746,
+     "h": 2840
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "escola-rettie-tipple-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Escola Rettie Tipple",
+   "local": "Anápolis/GO",
+   "resumo": "Projeto hidrossanitário de escola.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/hidrossanitario/escola-rettie-tipple-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/escola-rettie-tipple-hidrossanitario/01.webp",
+     "caption": "Imagem",
+     "w": 1003,
+     "h": 691
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "parque-eldorado-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Parque Eldorado",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto hidrossanitário de empreendimento residencial.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/hidrossanitario/parque-eldorado-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/parque-eldorado-hidrossanitario/01.webp",
+     "caption": "Imagem",
+     "w": 995,
+     "h": 654
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galpoes-cerejeiras-hidrossanitario",
+   "disciplina": "hidrossanitario",
+   "tipo": "Galpões Cerejeiras",
+   "local": "Anápolis/GO",
+   "resumo": "Projeto hidrossanitário de galpões.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/hidrossanitario/galpoes-cerejeiras-hidrossanitario/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/galpoes-cerejeiras-hidrossanitario/01.webp",
+     "caption": "Imagem",
+     "w": 1179,
+     "h": 361
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "tjma-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "TJMA",
+   "local": "Imperatriz/MA",
+   "resumo": "Modelagem BIM do sistema elétrico, da proteção contra descargas atmosféricas e do cabeamento estruturado, no modelo MEP do edifício.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/eletrico/tjma-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/tjma-hidrossanitario/01.webp",
+     "caption": "Imagem",
+     "w": 2746,
+     "h": 2840
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galpao-costa-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Galpão Costa",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto elétrico de galpão.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/eletrico/galpao-costa-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/galpao-costa-eletrico/01.webp",
+     "caption": "Imagem",
+     "w": 1244,
+     "h": 898
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "escola-rettie-tipple-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Escola Rettie Tipple",
+   "local": "Anápolis/GO",
+   "resumo": "Projeto elétrico de escola.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/eletrico/escola-rettie-tipple-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/escola-rettie-tipple-eletrico/01.webp",
+     "caption": "Imagem",
+     "w": 1003,
+     "h": 691
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "consultorio-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Consultório",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto elétrico de consultório.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/eletrico/consultorio-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/consultorio-eletrico/01.webp",
+     "caption": "Imagem",
+     "w": 574,
+     "h": 547
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galpoes-cerejeiras-eletrico",
+   "disciplina": "eletrico",
+   "tipo": "Galpões Cerejeiras",
+   "local": "Anápolis/GO",
+   "resumo": "Projeto elétrico de galpões.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/eletrico/galpoes-cerejeiras-eletrico/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/eletrico/galpoes-cerejeiras-eletrico/01.webp",
+     "caption": "Imagem",
+     "w": 1179,
+     "h": 361
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "tjma-incendio",
+   "disciplina": "incendio",
+   "tipo": "TJMA",
+   "local": "Imperatriz/MA",
+   "resumo": "Modelagem BIM da prevenção e do combate a incêndio, no modelo MEP do edifício.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/incendio/tjma-incendio/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/hidrossanitario/tjma-hidrossanitario/01.webp",
+     "caption": "Imagem",
+     "w": 2746,
+     "h": 2840
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galeria-plaza-incendio",
+   "disciplina": "incendio",
+   "tipo": "Galeria Plaza",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto de combate a incêndio.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/incendio/galeria-plaza-incendio/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/incendio/galeria-plaza-incendio/01.webp",
+     "caption": "Imagem",
+     "w": 1126,
+     "h": 736
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "grupo-cesar-incendio",
+   "disciplina": "incendio",
+   "tipo": "Grupo Cesar",
+   "local": "Aparecida de Goiânia/GO",
+   "resumo": "Projeto de combate a incêndio, dentro do projeto de readequação.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/incendio/grupo-cesar-incendio/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/incendio/grupo-cesar-incendio/01.webp",
+     "caption": "Imagem",
+     "w": 1207,
+     "h": 894
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "parque-eldorado-incendio",
+   "disciplina": "incendio",
+   "tipo": "Parque Eldorado",
+   "local": "Goiânia/GO",
+   "resumo": "Projeto de combate a incêndio de empreendimento residencial.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/incendio/parque-eldorado-incendio/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/incendio/parque-eldorado-incendio/01.webp",
+     "caption": "Imagem",
+     "w": 995,
+     "h": 654
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galpoes-cerejeiras-incendio",
+   "disciplina": "incendio",
+   "tipo": "Galpões Cerejeiras",
+   "local": "Anápolis/GO",
+   "resumo": "Projeto de combate a incêndio de galpões.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/incendio/galpoes-cerejeiras-incendio/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/incendio/galpoes-cerejeiras-incendio/01.webp",
+     "caption": "Imagem",
+     "w": 1179,
+     "h": 361
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "dub-11-infra",
+   "disciplina": "infra",
+   "tipo": "DUB 11",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM da infraestrutura de água, esgoto e drenagem.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/infra/dub-11-infra/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/dub-11-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 974,
+     "h": 688
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "jardins-berlim-infra",
+   "disciplina": "infra",
+   "tipo": "Jardins Berlim",
+   "local": "Senador Canedo/GO",
+   "resumo": "Modelagem de drenagem de arrimo e servidão, compatibilização das instalações prediais e da infraestrutura, e locação das casas.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/infra/jardins-berlim-infra/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/jardins-berlim-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 729
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "posto-dor-infra",
+   "disciplina": "infra",
+   "tipo": "Posto D’or",
+   "local": "Senador Canedo/GO",
+   "resumo": "Projeto de terraplenagem de posto de combustíveis.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/infra/posto-dor-infra/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/infra/posto-dor-infra/01.webp",
+     "caption": "Imagem",
+     "w": 1658,
+     "h": 900
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "comigo-infra",
+   "disciplina": "infra",
+   "tipo": "COMIGO",
+   "local": "Rio Verde/GO",
+   "resumo": "Projeto de terraplenagem.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/infra/comigo-infra/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/infra/comigo-infra/01.webp",
+     "caption": "Imagem",
+     "w": 2680,
+     "h": 1536
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "loteamento-rc-infra",
+   "disciplina": "infra",
+   "tipo": "Loteamento RC",
+   "local": "Pirenópolis/GO",
+   "resumo": "Projeto de terraplenagem de loteamento.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/infra/loteamento-rc-infra/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/infra/loteamento-rc-infra/01.webp",
+     "caption": "Imagem",
+     "w": 1382,
+     "h": 623
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "furnas-infra",
+   "disciplina": "infra",
+   "tipo": "FURNAS",
+   "local": "Espírito Santo",
+   "resumo": "Modelagem BIM da barragem, do terreno e das edificações.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/infra/furnas-infra/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/infra/furnas-infra/01.webp",
+     "caption": "Imagem",
+     "w": 1500,
+     "h": 840
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "comigo-jussara-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "COMIGO Jussara",
+   "local": "Goiânia/GO",
+   "resumo": "Compatibilização BIM da arquitetura, do hidrossanitário e da estrutura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/comigo-jussara-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/comigo-jussara-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 2680,
+     "h": 1536
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "vivendas-do-atlantico-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "Vivendas do Atlântico",
+   "local": "Goiânia/GO",
+   "resumo": "Compatibilização BIM da arquitetura, do hidrossanitário e da estrutura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/vivendas-do-atlantico-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/vivendas-do-atlantico-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 734,
+     "h": 378
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "maternidade-agusta-de-barros-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "Maternidade Agusta de Barros",
+   "local": "Rio Verde/GO",
+   "resumo": "Compatibilização BIM da arquitetura, do hidrossanitário e da estrutura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/maternidade-agusta-de-barros-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/maternidade-agusta-de-barros-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 941,
+     "h": 441
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "galeria-costa-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "Galeria Costa",
+   "local": "Rio Verde/GO",
+   "resumo": "Compatibilização BIM entre as disciplinas do projeto.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/galeria-costa-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/galeria-costa-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 808,
+     "h": 531
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "clinica-multimed-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "Clínica Multimed",
+   "local": "Goiânia/GO",
+   "resumo": "Compatibilização de projetos: arquitetura, estrutura e projetos complementares.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/clinica-multimed-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/clinica-multimed-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1411,
+     "h": 790
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "jardins-berlim-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "Jardins Berlim",
+   "local": "Senador Canedo/GO",
+   "resumo": "Compatibilização das instalações prediais e da infraestrutura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/jardins-berlim-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/jardins-berlim-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 729
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "crea-parana-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "CREA Paraná",
+   "local": "Curitiba/PR",
+   "resumo": "Fiscalização de contrato BIM, coordenação de modelos e fiscalização de modelagem 3D, 4D e 5D, nos formatos IFC, RVT, NWF, NWD e NWC, com mais de 20 disciplinas de projeto envolvidas.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/crea-parana-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/compatibilizacao/crea-parana-compatibilizacao/01.webp",
+     "caption": "Imagem",
+     "w": 817,
+     "h": 657
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "ministerio-publico-compatibilizacao",
+   "disciplina": "compatibilizacao",
+   "tipo": "Ministério Público",
+   "local": "Teresópolis/RJ",
+   "resumo": "Fiscalização de contrato BIM, coordenação de modelos e fiscalização de modelagem 3D, 4D e 5D, nos formatos IFC, RVT, NWF, NWD e NWC, com mais de 20 disciplinas de projeto envolvidas.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/compatibilizacao/ministerio-publico-compatibilizacao/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/compatibilizacao/ministerio-publico-compatibilizacao/01.webp",
+     "caption": "Imagem",
+     "w": 623,
+     "h": 483
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "nuveen-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Nuveen",
+   "local": "Londres, Inglaterra",
+   "resumo": "Modelagem BIM de um auditório para extração de quantitativos.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/nuveen-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/quantitativos/nuveen-quantitativos/01.webp",
+     "caption": "Imagem",
+     "w": 2460,
+     "h": 1690
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "quantitativos-interativos-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Quantitativos de obra interativos",
+   "local": null,
+   "resumo": "Painéis interativos com os quantitativos extraídos dos modelos BIM, por categoria de elemento (arquitetura, hidrossanitário e elétrico).",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/quantitativos-interativos-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/quantitativos/quantitativos-interativos-quantitativos/01.webp",
+     "caption": "Imagem 1",
+     "w": 2182,
+     "h": 1303
+    },
+    {
+     "src": "assets/vitrine/quantitativos/quantitativos-interativos-quantitativos/02.webp",
+     "caption": "Imagem 2",
+     "w": 2182,
+     "h": 1306
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "forum-aparecida-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Fórum de Justiça de Aparecida",
+   "local": "Aparecida de Goiânia/GO",
+   "resumo": "Extração de quantitativos do modelo BIM de reforma.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/forum-aparecida-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/forum-aparecida-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1427,
+     "h": 839
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "forum-anapolis-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Fórum de Justiça de Anápolis",
+   "local": "Anápolis/GO",
+   "resumo": "Extração de quantitativos do modelo BIM do fórum.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/forum-anapolis-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/forum-anapolis-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1171,
+     "h": 951
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "clinica-multimed-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Clínica Multimed",
+   "local": "Goiânia/GO",
+   "resumo": "Extração de quantitativos dos modelos de arquitetura e estrutura.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/clinica-multimed-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/clinica-multimed-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1411,
+     "h": 790
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "jardins-berlim-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Jardins Berlim",
+   "local": "Senador Canedo/GO",
+   "resumo": "Extração de quantitativos do modelo do empreendimento.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/jardins-berlim-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/estrutural/jardins-berlim-estrutural/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 729
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "dub-11-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "DUB 11",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/dub-11-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/dub-11-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 974,
+     "h": 688
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "college-square-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "College Square",
+   "local": "Dublin, Irlanda",
+   "resumo": "Modelagem BIM para planejamento, logística e acompanhamento de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/college-square-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/college-square-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 799,
+     "h": 373
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "statestreet-quantitativos",
+   "disciplina": "quantitativos",
+   "tipo": "Statestreet",
+   "local": "Kilkenny, Irlanda",
+   "resumo": "Modelagem BIM para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/quantitativos/statestreet-quantitativos/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/statestreet-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1285,
+     "h": 753
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "buriti-shopping-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Buriti Shopping",
+   "local": "Aparecida de Goiânia/GO",
+   "resumo": "Modelagem de arquitetura a partir de nuvem de pontos da fachada.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/buriti-shopping-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/buriti-shopping-asbuilt/01.webp",
+     "caption": "Imagem",
+     "w": 1312,
+     "h": 613
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "edificacao-comercial-goiania-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Edificação comercial",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem de arquitetura e terreno a partir de nuvem de pontos.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/edificacao-comercial-goiania-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/edificacao-comercial-goiania-asbuilt/01.webp",
+     "caption": "Imagem",
+     "w": 1406,
+     "h": 828
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "carrefour-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Carrefour",
+   "local": null,
+   "resumo": "Modelagem e As-built BIM de arquitetura, estrutura e pontos elétricos e hidrossanitários, feitos por nuvem de pontos.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/carrefour-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/carrefour-asbuilt/01.webp",
+     "caption": "Imagem",
+     "w": 1113,
+     "h": 531
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "central-de-decorados-city-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Central de Decorados (City)",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem BIM com laser scanner de arquitetura, estrutura, infraestrutura de água, esgoto e drenagem, implantação, paisagismo e entorno, para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/central-de-decorados-city-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/central-de-decorados-city-asbuilt/01.webp",
+     "caption": "Imagem 1",
+     "w": 2320,
+     "h": 1541
+    },
+    {
+     "src": "assets/vitrine/asbuilt/central-de-decorados-city-asbuilt/02.webp",
+     "caption": "Imagem 2",
+     "w": 1489,
+     "h": 886
+    },
+    {
+     "src": "assets/vitrine/asbuilt/central-de-decorados-city-asbuilt/03.webp",
+     "caption": "Imagem 3",
+     "w": 1728,
+     "h": 1282
+    },
+    {
+     "src": "assets/vitrine/asbuilt/central-de-decorados-city-asbuilt/04.webp",
+     "caption": "Imagem 4",
+     "w": 1728,
+     "h": 1135
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "strip-mall-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Strip Mall",
+   "local": "Goiânia/GO",
+   "resumo": "As-built BIM com laser scanner e levantamento topográfico.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/strip-mall-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/strip-mall-asbuilt/01.webp",
+     "caption": "Imagem",
+     "w": 1230,
+     "h": 777
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "ginasio-rio-vermelho-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Ginásio Rio Vermelho",
+   "local": "Goiânia/GO",
+   "resumo": "As-built BIM de arquitetura e estrutura, com modelagem e documentação em DWG e PDF.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/ginasio-rio-vermelho-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/asbuilt/ginasio-rio-vermelho-asbuilt/01.webp",
+     "caption": "Imagem 1",
+     "w": 2320,
+     "h": 1207
+    },
+    {
+     "src": "assets/vitrine/asbuilt/ginasio-rio-vermelho-asbuilt/02.webp",
+     "caption": "Imagem 2",
+     "w": 1728,
+     "h": 1062
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "hupes-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "HUPES",
+   "local": "Salvador/BA",
+   "resumo": "As-built BIM de arquitetura, interiores e implantação, como base para a reforma.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/hupes-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/hupes-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 901,
+     "h": 527
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "jorlan-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Jorlan",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem de arquitetura e terreno a partir de nuvem de pontos.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/jorlan-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/jorlan-arquitetura/02.webp",
+     "caption": "Imagem",
+     "w": 1608,
+     "h": 775
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "grupo-cesar-asbuilt",
+   "disciplina": "asbuilt",
+   "tipo": "Grupo Cesar",
+   "local": "Aparecida de Goiânia/GO",
+   "resumo": "As-built, modelagem e projeto de readequação de arquitetura, instalações hidrossanitárias, drenagem e combate a incêndio.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/asbuilt/grupo-cesar-asbuilt/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/grupo-cesar-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 1728,
+     "h": 585
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "complexo-serra-dourada-topografia",
+   "disciplina": "topografia",
+   "tipo": "Complexo Serra Dourada",
+   "local": "Goiânia/GO",
+   "resumo": "Levantamento topográfico completo, com dados planialtimétricos precisos que serviram de base para projetos, estudos e planejamento das intervenções.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/topografia/complexo-serra-dourada-topografia/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/complexo-serra-dourada-topografia/01.webp",
+     "caption": "Imagem 1",
+     "w": 2320,
+     "h": 1700
+    },
+    {
+     "src": "assets/vitrine/topografia/complexo-serra-dourada-topografia/02.webp",
+     "caption": "Imagem 2",
+     "w": 2320,
+     "h": 1700
+    },
+    {
+     "src": "assets/vitrine/topografia/complexo-serra-dourada-topografia/03.webp",
+     "caption": "Imagem 3",
+     "w": 2320,
+     "h": 1722
+    },
+    {
+     "src": "assets/vitrine/topografia/complexo-serra-dourada-topografia/04.webp",
+     "caption": "Imagem 4",
+     "w": 1272,
+     "h": 956
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "rio-meia-ponte-topografia",
+   "disciplina": "topografia",
+   "tipo": "Rio Meia-Ponte",
+   "local": "Goiânia/GO",
+   "resumo": "Levantamento aerofotogramétrico planialtimétrico com drone e estudo de viabilidade, com ortomosaico e levantamento georreferenciado por LiDAR (Matrice 350 e Zenmuse L2).",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/topografia/rio-meia-ponte-topografia/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/rio-meia-ponte-topografia/01.webp",
+     "caption": "Imagem 1",
+     "w": 1171,
+     "h": 879
+    },
+    {
+     "src": "assets/vitrine/topografia/rio-meia-ponte-topografia/02.webp",
+     "caption": "Imagem 2",
+     "w": 2198,
+     "h": 1484
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "oho-hotel-topografia",
+   "disciplina": "topografia",
+   "tipo": "OHO Hotel",
+   "local": "Pirenópolis/GO",
+   "resumo": "Levantamento topográfico planialtimétrico e laser scanner, para planejamento e logística de obra.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/topografia/oho-hotel-topografia/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/oho-hotel-topografia/01.webp",
+     "caption": "Imagem 1",
+     "w": 1728,
+     "h": 1388
+    },
+    {
+     "src": "assets/vitrine/topografia/oho-hotel-topografia/02.webp",
+     "caption": "Imagem 2",
+     "w": 1728,
+     "h": 1368
+    },
+    {
+     "src": "assets/vitrine/topografia/oho-hotel-topografia/03.webp",
+     "caption": "Imagem 3",
+     "w": 2320,
+     "h": 1648
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "shalom-empreendimentos-topografia",
+   "disciplina": "topografia",
+   "tipo": "Shalom Empreendimentos",
+   "local": "Goiânia/GO",
+   "resumo": "Modelagem BIM da topografia do terreno.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/topografia/shalom-empreendimentos-topografia/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/arquitetura/shalom-empreendimentos-arquitetura/01.webp",
+     "caption": "Imagem",
+     "w": 2518,
+     "h": 1854
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  },
+  {
+   "id": "ipec-topografia",
+   "disciplina": "topografia",
+   "tipo": "IPEC",
+   "local": "Pirenópolis/GO",
+   "resumo": "Modelagem BIM da topografia e implantação de uma área de fazenda.",
+   "ferramentas": [],
+   "fonte": "portfolio",
+   "capa": "assets/vitrine/topografia/ipec-topografia/capa.webp",
+   "imagens": [
+    {
+     "src": "assets/vitrine/topografia/ipec-topografia/01.webp",
+     "caption": "Imagem",
+     "w": 1620,
+     "h": 765
+    }
+   ],
+   "conteudo": [],
+   "area": null,
+   "modelo": null,
+   "modeloMB": null
+  }
+ ]
+}

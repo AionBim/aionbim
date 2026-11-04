@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AION BIM — Projetos, Topografia e Modelagem BIM</title>
+  <meta name="description" content="A AION BIM é uma empresa goiana de tecnologia para engenharia civil e arquitetura: projetos civis e de infraestrutura, modelagem BIM, nuvem de pontos, As-built, topografia, compatibilização e automação. Atuação no Brasil e no exterior.">
+  <meta name="author" content="AION BIM">
+  <link rel="canonical" href="https://aionbim.github.io/aionbim/">
+
+  <!-- Prévia de link (WhatsApp, LinkedIn, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="AION BIM">
+  <meta property="og:title" content="AION BIM — Projetos, Topografia e Modelagem BIM">
+  <meta property="og:description" content="Projetos civis e de infraestrutura, modelagem BIM, nuvem de pontos, As-built, topografia e automação. Todos os seus projetos em um lugar só.">
+  <meta property="og:url" content="https://aionbim.github.io/aionbim/">
+  <meta property="og:image" content="https://aionbim.github.io/aionbim/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logotipo da AION BIM">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AION BIM — Projetos, Topografia e Modelagem BIM">
+  <meta name="twitter:description" content="Projetos civis e de infraestrutura, modelagem BIM, nuvem de pontos, As-built, topografia e automação.">
+  <meta name="twitter:image" content="https://aionbim.github.io/aionbim/assets/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/favicon-32-B0ZT1IXE.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon-CLfeKp79.png">
+  <meta name="theme-color" content="#F4F8FC">
+
+  <!-- Google Fonts: Manrope, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Phosphor Icons (versão fixa) -->
+  <script defer src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+
+  <!-- Dados estruturados para o Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AION BIM",
+    "description": "Empresa goiana de tecnologia para engenharia civil e arquitetura: projetos civis e de infraestrutura, modelagem BIM, nuvem de pontos, As-built, topografia e automação.",
+    "url": "https://aionbim.github.io/aionbim/",
+    "logo": "https://aionbim.github.io/aionbim/assets/brand/simbolo.png",
+    "image": "https://aionbim.github.io/aionbim/assets/og-image.jpg",
+    "email": "mailto:contato@aionbim.com",
+    "telephone": "+55-62-98136-0185",
+    "address": { "@type": "PostalAddress", "addressRegion": "GO", "addressCountry": "BR" },
+    "sameAs": [
+      "https://www.linkedin.com/company/aion-bim/",
+      "https://www.instagram.com/aionbim/"
+    ]
+  }
+  </script>
+
+  <!-- Custom CSS -->
+  <!-- Utilitários do Tailwind, gerados por "npm run build:css" (tailwind.config.cjs) -->
+  <script type="module" crossorigin src="./assets/index-KQAQLGMr.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CfmDj7A5.css">
+</head>
+<body class="bg-paper text-ink-body antialiased selection:bg-ink selection:text-white">
+
+
+  <a href="#main" class="skip-to-content">Pular para o conteúdo principal</a>
+
+  <!-- Subtle Blueprint Grid Pattern -->
+  <div class="blueprint-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header id="header" class="fixed top-0 left-0 w-full z-50 duration-300">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+
+      <!-- Marca -->
+      <a href="#hero" class="flex items-center no-underline focus:outline-none" aria-label="AION BIM, início">
+        <img src="./assets/simbolo-5GZUIhcj.png" alt="AION BIM" width="128" height="130" class="h-11 sm:h-12 w-auto" style="mix-blend-mode:multiply">
+      </a>
+
+      <nav class="portfolio-desktop-nav items-center gap-6" aria-label="Navegação">
+        <a href="#servicos" class="nav-link"><span class="nav-num">01.</span>Serviços</a>
+        <a href="#projetos" class="nav-link"><span class="nav-num">02.</span>Projetos</a>
+        <a href="#automacoes" class="nav-link"><span class="nav-num">03.</span>Automações</a>
+        <a href="#equipamentos" class="nav-link"><span class="nav-num">04.</span>Equipamentos</a>
+        <a href="#parceiros" class="nav-link"><span class="nav-num">05.</span>Parceiros</a>
+        <a href="#sobre" class="nav-link"><span class="nav-num">06.</span>Sobre</a>
+        <a href="#contato" class="nav-link"><span class="nav-num">07.</span>Contato</a>
+      </nav>
+
+      <div class="portfolio-header-contact items-center gap-4">
+        <a href="#contato" class="btn-primary-dark !py-2 !px-4 !text-xs">
+          <span>Contato</span>
+          <i class="ph-bold ph-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="xl:hidden w-10 h-10 border border-border-editorial rounded flex items-center justify-center text-ink hover:bg-surface focus:outline-none" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <i class="ph-bold ph-list" id="mobile-menu-icon"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="absolute top-full left-0 w-full xl:hidden bg-surface border-b border-border-editorial px-6 py-6 transition-[opacity,transform] duration-300 shadow-lg opacity-0 pointer-events-none -translate-y-4">
+      <nav class="flex flex-col gap-3">
+        <a href="#servicos" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">01.</span>Serviços</a>
+        <a href="#projetos" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">02.</span>Projetos</a>
+        <a href="#automacoes" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">03.</span>Automações</a>
+        <a href="#equipamentos" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">04.</span>Equipamentos</a>
+        <a href="#parceiros" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">05.</span>Parceiros</a>
+        <a href="#sobre" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">06.</span>Sobre</a>
+        <a href="#contato" class="mobile-nav-link"><span class="font-mono text-xs text-ochre-dark mr-2">07.</span>Contato</a>
+        <div class="pt-4 border-t border-border-light flex flex-col gap-2">
+          <a href="https://wa.me/5562981360185" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-direct justify-center py-2.5">
+            <i class="ph-fill ph-whatsapp-logo text-base"></i> Conversar no WhatsApp
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+  <!-- Hero -->
+  <section id="hero" class="relative pt-32 pb-14 sm:pt-36 sm:pb-16">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center reveal">
+
+        <div class="lg:col-span-7 space-y-8">
+
+          <div class="space-y-3">
+            <div class="flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-widest text-ochre-dark">
+              <span>●</span>
+              <span>Projetos · Topografia · BIM</span>
+            </div>
+            <h1 class="hero-gradient font-heading font-extrabold text-3xl sm:text-5xl lg:text-6xl tracking-tight leading-[1.12]">
+              Todos os seus projetos<br>
+              <span class="text-ink-muted font-normal">em um lugar só.</span>
+            </h1>
+        </div>
+
+          <p class="text-lg sm:text-xl text-ink-body font-normal leading-relaxed max-w-2xl">
+            A AION é uma empresa goiana de tecnologia para engenharia civil e arquitetura. Reunimos projetos, topografia, modelagem BIM e nuvem de pontos para que as interferências sejam resolvidas no modelo, antes de chegarem à obra.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#projetos" class="btn-primary-dark">
+              <span>Ver projetos</span>
+              <i class="ph-bold ph-arrow-down text-xs"></i>
+            </a>
+            <a href="#contato" class="btn-outline-editorial">
+              <span>Falar com a AION</span>
+            </a>
+            <a href="https://www.linkedin.com/company/aion-bim/" target="_blank" rel="noopener noreferrer" class="btn-outline-editorial" aria-label="LinkedIn da AION">
+              <i class="ph-fill ph-linkedin-logo text-base" style="color:#0A66C2"></i>
+              <span>LinkedIn</span>
+            </a>
+        </div>
+
+          <div class="pt-6 border-t border-border-editorial mt-8">
+            <p class="text-xs text-ink-muted font-bold uppercase tracking-wider mb-3">Clientes e parceiros</p>
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-ink-secondary">
+              <span class="font-heading font-bold text-xs tracking-tight">Ademaldo Construções e Projetos</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Arismar Topografia</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Boston Metal</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Cesar Guindastes e Transportes</span>
+              <span class="font-heading font-bold text-xs tracking-tight">City Soluções Urbanas</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Clínica Multimed</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Clube de Engenharia de Goiás</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Comigo</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Complexo Serra Dourada</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Construcap</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Coordly</span>
+              <span class="font-heading font-bold text-xs tracking-tight">CREA-GO</span>
+              <span class="font-heading font-bold text-xs tracking-tight">CREA-PR</span>
+              <span class="font-heading font-bold text-xs tracking-tight">DMC Geoprocessamento e Engenharia</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Elmo Engenharia e Incorporações</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Emisa Incorporadora</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Época Inc.</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Ferrari Engenharia</span>
+              <span class="font-heading font-bold text-xs tracking-tight">FGR Incorporações</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Foizer Construtora</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Galeria Costa</span>
+              <span class="font-heading font-bold text-xs tracking-tight">GAV Resorts</span>
+              <span class="font-heading font-bold text-xs tracking-tight">GND Construções</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Grupo Fetz</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Grupo Flug</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Grupo Saga</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Jorlan</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Novacap</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Oho Hotel</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Oliveira Araújo Engenharia</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Plankus</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Porto Belo</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Posto D’or</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Strata</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Telmec</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Terral Shopping Centers</span>
+              <span class="font-heading font-bold text-xs tracking-tight">TJMA</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Toctao Engenharia</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Toctec</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Trevisan Prime</span>
+              <span class="font-heading font-bold text-xs tracking-tight">UFG</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Vertical</span>
+              <span class="font-heading font-bold text-xs tracking-tight">Vinhas Flamboyant</span>
+            </div>
+            <p class="text-xs text-ink-muted font-mono mt-3">
+              <i class="ph-bold ph-map-pin text-ochre-dark mr-1"></i> Goiás · Projetos e obras no Brasil e na Irlanda (presencial e remoto)
+            </p>
+        </div>
+
+        </div>
+
+        <!-- Marca -->
+        <div class="lg:col-span-5 relative h-[280px] sm:h-[420px] lg:h-[520px] rounded-2xl overflow-hidden shadow-card border border-border-editorial bg-surface">
+          <img src="./assets/hero-logo-YJEF1tm6.webp" alt="Logotipo da AION BIM" width="1080" height="1080" fetchpriority="high" decoding="async" class="absolute inset-0 w-full h-full object-cover profile-enter-anim">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       01. SERVIÇOS
+       ========================================================================= -->
+  <section id="servicos" class="py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="section-header-editorial">
+        <span class="section-label">01 / O que fazemos</span>
+        <h2 class="section-headline">Serviços</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <article class="editorial-card p-6 sm:p-8 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-11 h-11 rounded bg-surfaceSubtle text-ochre-dark flex items-center justify-center text-xl border border-border-editorial"><i class="ph-bold ph-house-line"></i></span>
+            <h3 class="font-heading font-bold text-ink text-xl">Projetos civis</h3>
+        </div>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-ink-body">
+            <li>Projeto arquitetônico</li>
+            <li>Estrutural e fundações</li>
+            <li>Hidrossanitário</li>
+            <li>Elétrico</li>
+            <li>Gás</li>
+            <li>Combate a incêndio</li>
+          </ul>
+        </article>
+
+        <article class="editorial-card p-6 sm:p-8 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-11 h-11 rounded bg-surfaceSubtle text-ochre-dark flex items-center justify-center text-xl border border-border-editorial"><i class="ph-bold ph-road-horizon"></i></span>
+            <h3 class="font-heading font-bold text-ink text-xl">Infraestrutura</h3>
+        </div>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-ink-body">
+            <li>Terraplenagem</li>
+            <li>Drenagem e drenagem de arrimo</li>
+            <li>Abastecimento de água</li>
+            <li>Rede de esgoto</li>
+            <li>Urbanístico e geométrico</li>
+            <li>Acessos e trevos rodoviários</li>
+          </ul>
+        </article>
+
+        <article class="editorial-card p-6 sm:p-8 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-11 h-11 rounded bg-surfaceSubtle text-ochre-dark flex items-center justify-center text-xl border border-border-editorial"><i class="ph-bold ph-cube"></i></span>
+            <h3 class="font-heading font-bold text-ink text-xl">BIM e tecnologia</h3>
+        </div>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-ink-body">
+            <li>Modelagem de projetos</li>
+            <li>Compatibilização e coordenação</li>
+            <li>Implementação BIM</li>
+            <li>Levantamento de quantitativos</li>
+            <li>Planejamento de obras</li>
+            <li>Estudos de implantação e viabilidade</li>
+            <li>Automação de tarefas</li>
+          </ul>
+        </article>
+
+        <article class="editorial-card p-6 sm:p-8 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="w-11 h-11 rounded bg-surfaceSubtle text-ochre-dark flex items-center justify-center text-xl border border-border-editorial"><i class="ph-bold ph-cell-tower"></i></span>
+            <h3 class="font-heading font-bold text-ink text-xl">Topografia, As-built e audiovisual</h3>
+        </div>
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-ink-body">
+            <li>Levantamento planialtimétrico</li>
+            <li>Georreferenciamento e parcelamento</li>
+            <li>Aerofotogrametria com drone</li>
+            <li>As-built BIM por nuvem de pontos</li>
+            <li>Laser scanner 3D</li>
+            <li>Drone, timelapse e realidade virtual</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="mt-10 grid grid-cols-2 md:grid-cols-5 gap-3 text-center">
+        <div class="editorial-card !p-4 text-sm font-heading font-bold text-ink">Design inteligente</div>
+        <div class="editorial-card !p-4 text-sm font-heading font-bold text-ink">Integração e compatibilidade</div>
+        <div class="editorial-card !p-4 text-sm font-heading font-bold text-ink">Obra sem surpresas</div>
+        <div class="editorial-card !p-4 text-sm font-heading font-bold text-ink">Levantamento de materiais</div>
+        <div class="editorial-card !p-4 text-sm font-heading font-bold text-ink col-span-2 md:col-span-1">Apresentação virtual dos projetos</div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       02. ARQUIVO DE PROJETOS & PRANCHAS
+       ========================================================================= -->
+  <section id="projetos" class="py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="section-header-editorial flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div>
+          <span class="section-label">02 / Portfólio de obras</span>
+          <h2 class="section-headline">Projetos e modelos 3D</h2>
+        </div>
+
+        <!-- Filtros por disciplina -->
+        <div class="filter-row" role="group" aria-label="Filtrar projetos">
+          <button class="project-filter-btn active" data-filter="all">Todos</button>
+          <button class="project-filter-btn" data-filter="viewer"><i class="ph-bold ph-cube text-ochre-dark mr-1"></i> Visualizador IFC</button>
+          <button class="project-filter-btn" data-filter="arquitetura">Arquitetura</button>
+          <button class="project-filter-btn" data-filter="estrutural">Estrutural</button>
+          <button class="project-filter-btn" data-filter="hidrossanitario">Hidrossanitário</button>
+          <button class="project-filter-btn" data-filter="eletrico">Elétrico</button>
+          <button class="project-filter-btn" data-filter="incendio">Incêndio</button>
+          <button class="project-filter-btn" data-filter="infra">Infraestrutura</button>
+          <button class="project-filter-btn" data-filter="compatibilizacao">Compatibilização</button>
+          <button class="project-filter-btn" data-filter="quantitativos">Quantitativos</button>
+          <button class="project-filter-btn" data-filter="asbuilt">As-built</button>
+          <button class="project-filter-btn" data-filter="topografia">Topografia</button>
+        </div>
+      </div>
+
+      <!-- Visualizador BIM principal -->
+      <div id="vitrine-viewer" class="mb-14">
+        <!-- Plate 0: Visualizador BIM -->
+        <div class="project-plate reveal border-2 !border-ochre/50 shadow-md bg-gradient-to-b from-surface to-surfaceSubtle" data-open-ifc="casa-terrea">
+          <div class="grid grid-cols-1 lg:grid-cols-12">
+            <div class="lg:col-span-7 project-media-wrap relative group cursor-pointer !h-64 sm:!h-80">
+              <img src="./assets/visualizador-bim-Ckou5tVj.webp" alt="Modelo BIM 3D aberto no visualizador da AION" class="project-media !object-cover" loading="lazy">
+              <div class="absolute inset-0 bg-ink/25 flex items-center justify-center group-hover:bg-ink/10 transition-colors">
+                <span class="w-16 h-16 rounded-full bg-ochre text-ink flex items-center justify-center text-2xl shadow-xl transform group-hover:scale-110 transition-transform" aria-hidden="true">
+                  <i class="ph-bold ph-play ml-1"></i>
+                </span>
+              </div>
+              <span class="project-code-tag !bg-ochre !text-ink font-bold">● MODELO BIM 3D INTERATIVO</span>
+            </div>
+            <div class="lg:col-span-5 project-plate-body justify-between">
+              <div>
+                <span class="project-plate-sub text-ochre-dark font-bold block mb-1">Abre no navegador, sem instalar nada</span>
+                <h3 class="project-plate-title text-xl mb-2">Visualizador BIM no navegador</h3>
+                <p class="project-plate-desc text-xs sm:text-sm mb-3 leading-relaxed">
+                  Explore o modelo da obra em 3D e clique em qualquer elemento para ver área, volume e pavimento. Filtre por disciplina, meça, faça cortes e exporte os quantitativos para Excel. Também dá para caminhar pelo modelo em primeira pessoa.
+                </p>
+                <p class="text-xs text-ink-muted leading-relaxed">
+                  Tem um arquivo IFC? Abra o seu: ele é processado no seu navegador e não é enviado a nenhum servidor.
+                </p>
+              </div>
+              <div class="space-y-3 pt-3 mt-4 border-t border-border-light">
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="tech-badge highlight"><i class="ph-bold ph-person-simple-walk mr-1"></i> Caminhada em 1ª pessoa</span>
+                  <span class="tech-badge highlight"><i class="ph-bold ph-stack mr-1"></i> Modelos federados</span>
+                  <span class="tech-badge">Planos de corte</span>
+                  <span class="tech-badge">Quantitativos</span>
+                </div>
+                <button type="button" class="btn-primary-dark w-full justify-center !py-2.5 !text-xs !bg-ink hover:!bg-ochre hover:!text-ink transition-colors">
+                  <i class="ph-bold ph-cube text-ochre mr-1"></i>
+                  <span>Abrir visualizador 3D</span>
+                </button>
+                <p class="text-[11px] font-mono text-ink-muted">Tecnologia: That Open Fragments e web-ifc.</p>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Obras por disciplina (geradas de assets/vitrine/projetos.json) -->
+      <div id="vitrine-root" class="space-y-16" aria-live="polite">
+        <div class="vitrine-skeleton grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7" aria-hidden="true">
+          <div class="vitrine-skeleton-card"></div>
+          <div class="vitrine-skeleton-card"></div>
+          <div class="vitrine-skeleton-card"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       03. AUTOMAÇÕES, SCRIPTS & PROGRAMAÇÃO
+       ========================================================================= -->
+  <section id="automacoes" class="py-24 section-dark">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="section-header-editorial">
+        <span class="section-label">03 / Automação de processos</span>
+        <h2 class="section-headline">Automações para Revit</h2>
+      </div>
+
+      <p class="dark-lead max-w-3xl mb-8 leading-relaxed">
+        Extensão própria da AION para o Revit, desenvolvida em Python com pyRevit, que automatiza tarefas repetitivas de modelagem, documentação e quantitativos.
+      </p>
+
+      <!-- Code Workbench -->
+      <div class="code-workbench reveal max-w-5xl mx-auto">
+        
+        <!-- Workbench Header -->
+        <div class="code-workbench-header">
+          <div class="flex items-center gap-2 overflow-x-auto py-1">
+            <button class="code-tab active" data-tab="tab-plugins">
+              <i class="ph-bold ph-puzzle-piece text-ochre-dark mr-1"></i> Plugins Revit
+            </button>
+
+
+
+
+        </div>
+
+          <button id="copy-code-btn" class="btn-code-copy hidden" title="Copiar código">
+            <i class="ph-bold ph-copy"></i>
+            <span>Copiar</span>
+          </button>
+        </div>
+
+        <!-- Tab 0: plugins pyRevit (gerada de assets/plugins/plugins.json) -->
+        <div id="tab-plugins" class="code-tab-content active plugins-panel">
+          <p class="plugins-intro">Extensão própria da AION para o Revit, feita em Python com pyRevit. Os ícones abaixo são os dos botões reais da faixa de opções.</p>
+          <div id="plugins-tabs" class="plugins-tabs" role="tablist" aria-label="Abas da extensão"></div>
+          <p id="plugins-resumo" class="plugins-resumo"></p>
+          <div id="plugins-grid" class="plugins-grid"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       04. EQUIPAMENTOS
+       ========================================================================= -->
+  <section id="equipamentos" class="py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="section-header-editorial">
+        <span class="section-label">04 / Tecnologia em campo</span>
+        <h2 class="section-headline">Equipamentos</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <article class="editorial-card p-6 reveal">
+          <i class="ph-bold ph-crosshair text-2xl text-ochre-dark"></i>
+          <h3 class="font-heading font-bold text-ink text-lg mt-3">Estação total</h3>
+          <p class="text-sm text-ink-body mt-1">Geodetic GT2i-10H</p>
+        </article>
+        <article class="editorial-card p-6 reveal">
+          <i class="ph-bold ph-broadcast text-2xl text-ochre-dark"></i>
+          <h3 class="font-heading font-bold text-ink text-lg mt-3">Kit GNSS RTK</h3>
+          <p class="text-sm text-ink-body mt-1">Geodetic Orbit</p>
+        </article>
+        <article class="editorial-card p-6 reveal">
+          <i class="ph-bold ph-scan text-2xl text-ochre-dark"></i>
+          <h3 class="font-heading font-bold text-ink text-lg mt-3">Scanner a laser 3D portátil</h3>
+          <p class="text-sm text-ink-body mt-1">SLAM + GNSS RTK</p>
+        </article>
+        <article class="editorial-card p-6 reveal">
+          <svg class="text-ochre-dark" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="5" r="2.5"/><circle cx="19" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M7 7l3 3M17 7l-3 3M7 17l3-3M17 17l-3-3"/><rect x="9.5" y="9.5" width="5" height="5" rx="1.2"/></svg>
+          <h3 class="font-heading font-bold text-ink text-lg mt-3">Drone</h3>
+          <p class="text-sm text-ink-body mt-1">DJI Matrice 4E</p>
+        </article>
+        <article class="editorial-card p-6 reveal">
+          <i class="ph-bold ph-cloud text-2xl text-ochre-dark"></i>
+          <h3 class="font-heading font-bold text-ink text-lg mt-3">Laser scanning 3D terrestre</h3>
+          <p class="text-sm text-ink-body mt-1">RIEGL VZ-400i</p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       05. PARCEIROS
+       ========================================================================= -->
+  <section id="parceiros" class="py-24">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="section-header-editorial">
+        <span class="section-label">05 / Quem confia na AION</span>
+        <h2 class="section-headline">Parceiros e clientes</h2>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/ademaldo-DCqJgm0P.webp" alt="Ademaldo Construções e Projetos" title="Ademaldo Construções e Projetos" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/arismar-topografia-B4AAd-AE.webp" alt="Arismar Topografia" title="Arismar Topografia" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/boston-metal-TL3LxYPu.webp" alt="Boston Metal" title="Boston Metal" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/cesar-guindastes-Br9tUPtX.webp" alt="Cesar Guindastes e Transportes" title="Cesar Guindastes e Transportes" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/city-solucoes-urbanas-BUBRb83H.webp" alt="City Soluções Urbanas" title="City Soluções Urbanas" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/clube-engenharia-goias-BkvkqSSK.webp" alt="Clube de Engenharia de Goiás" title="Clube de Engenharia de Goiás" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/comigo-BEGSn9_J.webp" alt="Comigo" title="Comigo" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/construcap-Ce7EDv2e.webp" alt="Construcap" title="Construcap" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/coordly-qOBeFZNC.webp" alt="Coordly" title="Coordly" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/crea-go-C5cHVAmE.webp" alt="CREA-GO" title="CREA-GO" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/dmc-engenharia-BJCnbQRj.webp" alt="DMC Geoprocessamento e Engenharia" title="DMC Geoprocessamento e Engenharia" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/elmo-engenharia-DU2JL4vX.webp" alt="Elmo Engenharia e Incorporações" title="Elmo Engenharia e Incorporações" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/emisa-incorporadora--J0KWIBO.webp" alt="Emisa Incorporadora" title="Emisa Incorporadora" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/epoca-inc-DLizdR32.webp" alt="Época Inc." title="Época Inc." loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/ferrari-engenharia-CB8Z8t_K.webp" alt="Ferrari Engenharia" title="Ferrari Engenharia" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/fgr-incorporacoes-NSu8kX7t.webp" alt="FGR Incorporações" title="FGR Incorporações" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/foizer-construtora-Bluxk87v.webp" alt="Foizer Construtora" title="Foizer Construtora" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/gav-resorts-Gq0OX6Bb.webp" alt="GAV Resorts" title="GAV Resorts" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/gnd-construcoes-DdDyjRbM.webp" alt="GND Construções" title="GND Construções" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/grupo-fetz-CuZDMc-A.webp" alt="Grupo Fetz" title="Grupo Fetz" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/grupo-flug-B4J3ctbA.webp" alt="Grupo Flug" title="Grupo Flug" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/grupo-saga-C8zUTDe3.webp" alt="Grupo Saga" title="Grupo Saga" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/jorlan-BNBHzKPx.webp" alt="Jorlan" title="Jorlan" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/novacap-DAbDtYF6.webp" alt="Novacap" title="Novacap" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/oliveira-araujo-B0qB5G2u.webp" alt="Oliveira Araújo Engenharia" title="Oliveira Araújo Engenharia" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/plankus-CiG6Jnw5.webp" alt="Plankus" title="Plankus" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/porto-belo-CPz70zZg.webp" alt="Porto Belo" title="Porto Belo" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/strata-Bfb8_Oxy.webp" alt="Strata" title="Strata" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/telmec-DsizC0A4.webp" alt="Telmec" title="Telmec" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/terral-shopping-centers-Bl0sUvth.webp" alt="Terral Shopping Centers" title="Terral Shopping Centers" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/toctao-engenharia-DHc4u-Ms.webp" alt="Toctao Engenharia" title="Toctao Engenharia" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/toctec-B6f_ak5X.webp" alt="Toctec" title="Toctec" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/trevisan-prime-SEFZ9PQu.webp" alt="Trevisan Prime" title="Trevisan Prime" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/ufg-CdQYufbR.webp" alt="UFG" title="UFG" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/vertical-V3sjxVRs.webp" alt="Vertical" title="Vertical" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+        <div class="editorial-card !p-4 h-24 flex items-center justify-center reveal"><img src="./assets/vinhas-flamboyant-DgBt49G3.webp" alt="Vinhas Flamboyant" title="Vinhas Flamboyant" loading="lazy" decoding="async" class="max-h-14 w-auto max-w-full object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       06. SOBRE
+       ========================================================================= -->
+  <section id="sobre" class="py-24 bg-surface border-y border-border-editorial">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="section-header-editorial">
+        <span class="section-label">06 / Quem somos</span>
+        <h2 class="section-headline">Sobre a AION</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <div class="lg:col-span-7 space-y-5 text-ink-body leading-relaxed reveal">
+          <p>
+            A AION é uma empresa goiana de tecnologia que oferece soluções e projetos para engenharia civil e arquitetura. Temos ampla experiência em usos BIM, que por essência traz soluções integradas e ricas em informação, com melhores resultados, otimizações e inovações.
+          </p>
+          <p>
+            Nossa carteira vai de projetos civis e de infraestrutura a compatibilização, coordenação de projetos, implementação BIM, modelagem 3D com nuvem de pontos, As-built, levantamento de quantitativos e automação de tarefas.
+          </p>
+          <p>
+            Nossa experiência com projetos no Brasil e no exterior é prova do compromisso com a excelência. Para a AION, cada cliente é de extrema importância, e as necessidades de cada novo projeto ampliam a prática BIM e a difusão dessa forma de pensar a engenharia.
+          </p>
+        </div>
+
+        <div class="lg:col-span-5 space-y-4 reveal">
+          <div class="editorial-card p-6">
+            <h3 class="font-heading font-bold text-ink text-base mb-2"><i class="ph-bold ph-house-line text-ochre-dark mr-2"></i>Projetos civis</h3>
+            <p class="text-sm text-ink-body leading-relaxed">Projetos arquitetônicos, estruturais e de instalações (hidrossanitário, elétrico, gás e combate a incêndio), com infraestrutura e compatibilização em BIM. Uma frente em crescimento na AION.</p>
+        </div>
+          <div class="editorial-card p-6">
+            <h3 class="font-heading font-bold text-ink text-base mb-2"><i class="ph-bold ph-scan text-ochre-dark mr-2"></i>As-built BIM</h3>
+            <p class="text-sm text-ink-body leading-relaxed">Captura, processamento e modelagem de dados 3D de alta precisão, com laser scanner e fotogrametria, para representar fielmente o que foi executado em obra.</p>
+        </div>
+          <div class="editorial-card p-6">
+            <h3 class="font-heading font-bold text-ink text-base mb-2"><i class="ph-bold ph-map-trifold text-ochre-dark mr-2"></i>Topografia e geotecnologia</h3>
+            <p class="text-sm text-ink-body leading-relaxed">Levantamentos topográficos e cadastrais com rigor geométrico e altimétrico, conforme as normas técnicas e exigências legais vigentes.</p>
+        </div>
+          <div class="editorial-card p-6">
+            <h3 class="font-heading font-bold text-ink text-base mb-2"><i class="ph-bold ph-video-camera text-ochre-dark mr-2"></i>Audiovisual integrado ao BIM</h3>
+            <p class="text-sm text-ink-body leading-relaxed">Drones, vídeos técnicos, registros evolutivos e timelapses fiéis ao modelo BIM, para acompanhamento da obra e comunicação institucional.</p>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================================================================
+       06. CONTATO DIRETO
+       ========================================================================= -->
+  <section id="contato" class="py-24 bg-surface border-y border-border-editorial">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="section-header-editorial">
+        <span class="section-label">07 / Contato</span>
+        <h2 class="section-headline">Vamos conversar sobre o seu projeto</h2>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start max-w-5xl mx-auto">
+        
+        <!-- Left: Direct Info & Social -->
+        <div class="lg:col-span-5 space-y-6 reveal">
+          <h3 class="font-heading font-bold text-xl text-ink">
+            Conte com a AION no seu próximo projeto.
+          </h3>
+          <p class="text-ink-body text-sm leading-relaxed">
+            Projetos civis e de infraestrutura, modelagem BIM, topografia, As-built por nuvem de pontos ou automação de processos: conte o que você precisa e respondemos em seguida.
+          </p>
+
+          <div class="space-y-3 pt-2">
+            
+            <a href="https://wa.me/5562981360185?text=Ol%C3%A1,%20vim%20pelo%20site%20da%20AION%20e%20gostaria%20de%20conversar!" target="_blank" rel="noopener noreferrer" class="editorial-card flex items-center gap-4 !p-4 group">
+              <div class="w-11 h-11 rounded bg-emerald-50 text-emerald-700 flex items-center justify-center text-xl shrink-0 border border-emerald-200">
+                <i class="ph-fill ph-whatsapp-logo"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-ochre-dark uppercase font-bold tracking-wider block">WhatsApp</span>
+                <p class="font-heading font-bold text-ink text-base group-hover:text-ochre-dark transition-colors">(62) 98136-0185</p>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/company/aion-bim/" target="_blank" rel="noopener noreferrer" class="editorial-card flex items-center gap-4 !p-4 group">
+              <div class="w-11 h-11 rounded flex items-center justify-center text-xl shrink-0 border" style="background:#EAF3FB;color:#0A66C2;border-color:#BFD9F1">
+                <i class="ph-fill ph-linkedin-logo"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-ochre-dark uppercase font-bold tracking-wider block">LinkedIn</span>
+                <p class="font-heading font-bold text-ink text-sm sm:text-base group-hover:text-ochre-dark transition-colors">AION BIM</p>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/aionbim/" target="_blank" rel="noopener noreferrer" class="editorial-card flex items-center gap-4 !p-4 group">
+              <div class="w-11 h-11 rounded flex items-center justify-center text-xl shrink-0 border" style="background:#FDF0F5;color:#C13584;border-color:#F3C6DA">
+                <i class="ph-fill ph-instagram-logo"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-ochre-dark uppercase font-bold tracking-wider block">Instagram</span>
+                <p class="font-heading font-bold text-ink text-sm sm:text-base group-hover:text-ochre-dark transition-colors">@aionbim</p>
+              </div>
+            </a>
+
+            <div class="editorial-card flex items-center gap-4 !p-4 group">
+              <div class="w-11 h-11 rounded bg-surfaceSubtle text-ink flex items-center justify-center text-xl shrink-0 border border-border-editorial">
+                <i class="ph-bold ph-envelope-simple"></i>
+              </div>
+              <div class="flex-grow">
+                <span class="font-mono text-xs text-ochre-dark uppercase font-bold tracking-wider block">E-mail</span>
+                <a href="mailto:contato@aionbim.com" class="font-heading font-bold text-ink text-sm sm:text-base hover:text-ochre-dark transition-colors block break-all">contato@aionbim.com</a>
+              </div>
+            </div>
+
+            <div class="editorial-card flex items-center gap-4 !p-4">
+              <div class="w-11 h-11 rounded bg-surfaceSubtle text-ink flex items-center justify-center text-xl shrink-0 border border-border-editorial">
+                <i class="ph-bold ph-map-pin"></i>
+              </div>
+              <div>
+                <span class="font-mono text-xs text-ochre-dark uppercase font-bold tracking-wider block">Localização</span>
+                <p class="font-heading font-bold text-ink text-sm">Goiás, Brasil (presencial e remoto)</p>
+              </div>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- Right: Clean Message Dispatcher Form -->
+        <div class="lg:col-span-7 reveal">
+          <div class="editorial-card p-6 sm:p-8">
+            <h4 class="font-heading font-bold text-ink text-lg mb-1">Enviar mensagem</h4>
+            <p class="text-xs text-ink-muted mb-6">Preencha o formulário abaixo para enviar diretamente via WhatsApp ou E-mail.</p>
+
+            <form id="contact-form" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="form-name" class="block font-mono text-xs uppercase font-bold text-ink mb-1">Nome ou empresa *</label>
+                  <input type="text" id="form-name" required placeholder="Ex: Maria Souza ou Construtora X" class="input-editorial">
+                </div>
+                <div>
+                  <label for="form-email" class="block font-mono text-xs uppercase font-bold text-ink mb-1">E-mail *</label>
+                  <input type="email" id="form-email" required placeholder="carlos@empresa.com" class="input-editorial">
+                </div>
+              </div>
+
+              <div>
+                <label for="form-subject" class="block font-mono text-xs uppercase font-bold text-ink mb-1">Assunto *</label>
+                <select id="form-subject" class="input-editorial">
+                  <option value="Projetos civis (arquitetura, estrutural, instalações)">Projetos civis (arquitetura, estrutural, instalações)</option>
+                  <option value="Infraestrutura (terraplenagem, drenagem, redes)">Infraestrutura (terraplenagem, drenagem, redes)</option>
+                  <option value="Modelagem BIM e compatibilização">Modelagem BIM e compatibilização</option>
+                  <option value="Topografia e levantamento">Topografia e levantamento</option>
+                  <option value="As-built / Nuvem de pontos">As-built / Nuvem de pontos</option>
+                  <option value="Audiovisual e drone">Audiovisual e drone</option>
+                  <option value="Outro assunto">Outro assunto</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="form-message" class="block font-mono text-xs uppercase font-bold text-ink mb-1">Mensagem *</label>
+                <textarea id="form-message" rows="4" required placeholder="Descreva brevemente o projeto, escopo ou oportunidade..." class="input-editorial"></textarea>
+              </div>
+
+              <div class="flex flex-wrap items-center gap-3 pt-2">
+                <button type="button" id="btn-send-whatsapp" class="btn-primary-dark flex-1 justify-center py-3">
+                  <i class="ph-fill ph-whatsapp-logo text-emerald-400 text-base"></i>
+                  <span>Enviar pelo WhatsApp</span>
+                </button>
+                <button type="button" id="btn-send-email" class="btn-outline-editorial flex-1 justify-center py-3">
+                  <i class="ph-bold ph-envelope-simple text-ochre-dark"></i>
+                  <span>Enviar por e-mail</span>
+                </button>
+              </div>
+            </form>
+        </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  </main>
+
+  <!-- Project Blueprint Lightbox Modal -->
+  <div id="project-modal" class="modal-overlay hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Fechar">
+        <i class="ph-bold ph-x"></i>
+      </button>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 p-6 sm:p-8">
+        <div class="lg:col-span-7">
+          <div id="modal-tabs" class="modal-tabs hidden" role="tablist" aria-label="Conteúdo do projeto">
+            <button type="button" role="tab" data-tab="pranchas" aria-selected="true"><i class="ph-bold ph-images"></i> Pranchas</button>
+            <button type="button" role="tab" data-tab="modelo" aria-selected="false"><i class="ph-bold ph-cube"></i> Modelo 3D</button>
+        </div>
+          <div id="modal-pane-sheets">
+            <div class="modal-stage bg-surfaceSubtle rounded border border-border-editorial p-2">
+              <img id="modal-img" src="" alt="Prancha do projeto" class="max-h-[75vh] w-auto object-contain rounded">
+              <button type="button" id="modal-prev" class="modal-nav-btn modal-nav-prev" aria-label="Imagem anterior"><i class="ph-bold ph-caret-left"></i></button>
+              <button type="button" id="modal-next" class="modal-nav-btn modal-nav-next" aria-label="Próxima imagem"><i class="ph-bold ph-caret-right"></i></button>
+            </div>
+            <div class="modal-gallery-bar">
+              <span id="modal-caption"></span>
+              <span id="modal-counter" aria-live="polite"></span>
+            </div>
+        </div>
+          <div id="modal-pane-3d" class="hidden">
+            <div id="modal-3d-stage" class="modal-3d-stage">
+              <div id="modal-3d-status" class="modal-3d-status">Carregando modelo 3D…</div>
+              <div id="modal-3d-tools" class="modal-3d-tools" role="group" aria-label="Modo de arrasto">
+                <button type="button" data-mode="rotate" aria-pressed="true" title="Arrastar gira o modelo"><i class="ph-bold ph-arrows-clockwise"></i> Girar</button>
+                <button type="button" data-mode="pan" aria-pressed="false" title="Arrastar move a vista"><i class="ph-bold ph-hand-grabbing"></i> Mover</button>
+              </div>
+            </div>
+            <p class="modal-3d-hint"><i class="ph-bold ph-cursor-click"></i> Arraste para girar · botão direito ou Shift para mover · role para ampliar · dois dedos movem e ampliam</p>
+        </div>
+        </div>
+        <div class="lg:col-span-5 flex flex-col justify-between space-y-6">
+          <div>
+            <span id="modal-sub" class="font-mono text-xs text-ochre-dark uppercase font-bold tracking-wider block mb-1"></span>
+            <h3 id="modal-title" class="font-heading font-bold text-ink text-2xl mb-4 leading-snug"></h3>
+            <p id="modal-desc" class="text-ink-body text-sm leading-relaxed mb-6"></p>
+            
+            <h4 class="font-mono text-xs uppercase font-bold text-ink tracking-wider mb-2">Destaques</h4>
+            <ul id="modal-highlights" class="space-y-2 text-xs sm:text-sm text-ink-body mb-6"></ul>
+        </div>
+
+          <div class="pt-4 border-t border-border-editorial flex flex-wrap gap-2" id="modal-techs"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- IFC BIM Viewer -->
+  <div id="ifc-viewer-modal" class="bim-app hidden" role="dialog" aria-modal="true" aria-label="Visualizador BIM">
+    <header class="bim-topbar">
+      <div class="bim-brand">
+        <span class="bim-brand__mark" aria-hidden="true"><i class="ph-bold ph-cube-transparent"></i></span>
+        <div class="bim-brand__text">
+          <label class="bim-visually-hidden" for="bim-project-select">Projeto</label>
+          <select id="bim-project-select" class="bim-project-select">
+            <option value="casa-terrea">Casa Térrea</option>
+            <option value="galpao">Galpão Industrial</option>
+            <option value="casa-popular">Casa Popular</option>
+            <option value="local" hidden>IFCs abertos</option>
+          </select>
+          <span id="bim-project-meta" class="bim-brand__meta">Carregando…</span>
+        </div>
+      </div>
+      <nav class="bim-tabs" role="tablist" aria-label="Áreas do visualizador">
+        <button type="button" role="tab" class="bim-tab" data-tab="model" aria-selected="true"><i class="ph ph-cube"></i><span>Modelo</span></button>
+        <button type="button" role="tab" class="bim-tab" data-tab="takeoff" aria-selected="false"><i class="ph ph-table"></i><span>Quantitativos</span></button>
+        <button type="button" role="tab" class="bim-tab" data-tab="overview" aria-selected="false"><i class="ph ph-chart-bar"></i><span>Visão geral</span></button>
+      </nav>
+      <div class="bim-topbar__actions">
+        <label class="bim-button bim-button--accent" for="ifc-file-input"><i class="ph-bold ph-upload-simple"></i><span>Abrir IFC</span></label>
+        <input id="ifc-file-input" type="file" multiple accept=".ifc,.IFC" hidden>
+        <button id="bim-shortcuts-btn" class="bim-icon-button" type="button" aria-label="Atalhos de teclado" title="Atalhos de teclado (?)"><i class="ph ph-keyboard"></i></button>
+        <button id="bim-toggle-navigator" class="bim-icon-button" type="button" data-panel-toggle="navigator" aria-pressed="true" aria-label="Mostrar navegador do projeto" title="Navegador do projeto"><i class="ph ph-sidebar-simple"></i></button>
+        <button id="bim-toggle-sheet" class="bim-icon-button" type="button" data-panel-toggle="sheet" aria-pressed="true" aria-label="Mostrar propriedades do elemento" title="Propriedades do elemento"><i class="ph ph-sidebar-simple bim-flip"></i></button>
+        <button id="ifc-benchmark-copy-btn" class="bim-icon-button" type="button" aria-label="Copiar medição de desempenho" title="Copiar medição de desempenho"><i class="ph ph-gauge"></i></button>
+        <button id="ifc-fullscreen-btn" class="bim-icon-button" type="button" aria-label="Tela cheia" title="Tela cheia"><i class="ph ph-corners-out"></i></button>
+        <button id="ifc-close-btn" class="bim-icon-button" type="button" aria-label="Fechar visualizador" title="Fechar"><i class="ph ph-x"></i></button>
+      </div>
+    </header>
+
+    <div id="bim-workspace" class="bim-workspace" data-tab="model">
+      <aside id="bim-navigator" class="bim-panel bim-navigator" aria-label="Navegador do projeto"></aside>
+
+      <div class="bim-stage" role="region" aria-label="Modelo 3D">
+        <div id="ifc-canvas-container" class="bim-viewport"></div>
+        <div id="ifc-loading-overlay" class="bim-loading hidden" aria-live="polite">
+          <div class="bim-loading__spinner"></div>
+          <strong id="ifc-loading-text">Preparando visualizador…</strong>
+          <div class="bim-loading__track"><div id="ifc-progress-bar" class="bim-loading__bar"></div></div>
+        </div>
+        <div id="ifc-status" class="bim-status hidden" role="status"></div>
+        <div id="bim-plan-banner" class="bim-plan-banner hidden" role="status">
+          <span><i class="ph-bold ph-map-trifold"></i> Planta: <strong id="bim-plan-label"></strong></span>
+          <button type="button" id="bim-plan-exit" class="bim-link-button">Voltar ao 3D</button>
+        </div>
+        <div id="ifc-walk-crosshair" class="bim-walk-crosshair hidden" aria-hidden="true"></div>
+        <div id="ifc-walk-help" class="bim-walk-help hidden">Clique em um piso para posicionar-se. Use <b>W A S D</b> para andar, <b>Espaço</b> para pular e <b>Shift</b> para correr. <b>Esc</b> libera o mouse; o segundo <b>Esc</b> sai.</div>
+        <div id="bim-measure-help" class="bim-walk-help hidden"></div>
+        <div id="bim-legend" class="bim-legend hidden" aria-label="Legenda de cores"></div>
+
+        <div id="bim-hover-tip" class="bim-hover-tip hidden" role="tooltip"></div>
+        <div id="bim-context-menu" class="bim-context-menu hidden" role="menu" aria-label="Ações do elemento"></div>
+        <section id="bim-shortcuts" class="bim-float bim-shortcuts hidden" aria-label="Atalhos de teclado">
+          <div class="bim-float__head"><span>Atalhos de teclado</span><button type="button" class="bim-link-button" data-shortcuts-close>Fechar</button></div>
+          <dl class="bim-shortcuts__list">
+            <div><dt><kbd>F</kbd></dt><dd>Enquadrar tudo</dd></div>
+            <div><dt><kbd>I</kbd></dt><dd>Isolar a seleção</dd></div>
+            <div><dt><kbd>H</kbd></dt><dd>Ocultar a seleção</dd></div>
+            <div><dt><kbd>U</kbd></dt><dd>Mostrar tudo</dd></div>
+            <div><dt><kbd>Esc</kbd></dt><dd>Limpar seleção</dd></div>
+            <div><dt><kbd>Ctrl</kbd> + clique</dt><dd>Somar à seleção</dd></div>
+            <div><dt><kbd>?</kbd></dt><dd>Mostrar ou ocultar esta lista</dd></div>
+          </dl>
+        </section>
+        <div id="bim-viewcube" class="bim-viewcube" title="Cubo de navegação: clique em uma face, aresta ou canto"></div>
+        <nav class="bim-navbar" aria-label="Navegação do modelo">
+          <button type="button" data-action="orbit" class="bim-tool bim-tool--icon active" title="Órbita"><i class="ph ph-arrows-clockwise"></i><span class="bim-visually-hidden">Órbita</span></button>
+          <button type="button" data-action="walk" class="bim-tool bim-tool--icon bim-walk-only" title="Caminhar em primeira pessoa"><i class="ph ph-person-simple-walk"></i><span class="bim-visually-hidden">Caminhar</span></button>
+          <button type="button" data-action="fit" class="bim-tool bim-tool--icon" title="Enquadrar tudo"><i class="ph ph-frame-corners"></i><span class="bim-visually-hidden">Enquadrar</span></button>
+        </nav>
+
+        <div class="bim-stage__drawers">
+          <button type="button" class="bim-drawer-toggle" data-drawer="navigator"><i class="ph ph-tree-structure"></i><span>Navegador</span></button>
+          <button type="button" class="bim-drawer-toggle" data-drawer="sheet"><i class="ph ph-identification-card"></i><span>Elemento</span></button>
+        </div>
+
+        <div class="bim-toolbar" role="toolbar" aria-label="Ferramentas do modelo">
+          <div class="bim-toolbar__group bim-toolbar__group--mobile-nav">
+            <button type="button" data-action="orbit" class="bim-tool active" title="Órbita"><i class="ph ph-arrows-clockwise"></i><span>Órbita</span></button>
+            <button type="button" data-action="walk" class="bim-tool bim-walk-only" title="Caminhar em primeira pessoa"><i class="ph ph-person-simple-walk"></i><span>Caminhar</span></button>
+            <button type="button" data-action="fit" class="bim-tool" title="Enquadrar tudo"><i class="ph ph-frame-corners"></i><span>Enquadrar</span></button>
+        </div>
+          <div class="bim-toolbar__group">
+            <button type="button" data-action="xray" class="bim-tool" aria-pressed="false" title="Raio-X: deixa translúcido tudo o que não está selecionado"><i class="ph ph-eye"></i><span>Raio-X</span></button>
+            <button type="button" data-action="color" class="bim-tool" title="Colorir por parâmetro"><i class="ph ph-palette"></i><span>Colorir</span></button>
+            <button type="button" data-action="clip" class="bim-tool" title="Caixa de corte"><i class="ph ph-scissors"></i><span>Cortes</span></button>
+            <button type="button" data-action="explode" class="bim-tool" title="Vista explodida"><i class="ph ph-arrows-out"></i><span>Explodir</span></button>
+        </div>
+          <div class="bim-toolbar__group">
+            <button type="button" data-action="measure" class="bim-tool" title="Medir distância ou área"><i class="ph ph-ruler"></i><span>Medir</span></button>
+            <button type="button" data-action="coords" class="bim-tool" title="Ler as coordenadas de um ponto"><i class="ph ph-map-pin"></i><span>Coordenadas</span></button>
+            <button type="button" data-action="views" class="bim-tool" title="Vistas salvas"><i class="ph ph-bookmark-simple"></i><span>Vistas</span></button>
+            <button type="button" data-action="settings" class="bim-tool" title="Fundo e qualidade gráfica"><i class="ph ph-sliders-horizontal"></i><span>Ajustes</span></button>
+        </div>
+        </div>
+
+        <section id="bim-color-panel" class="bim-float hidden" aria-label="Colorir por parâmetro">
+          <label for="bim-color-select">Colorir elementos por</label>
+          <select id="bim-color-select" class="bim-select">
+            <option value="">Cores originais do modelo</option>
+            <option value="discipline">Disciplina</option>
+            <option value="storey">Pavimento</option>
+            <option value="classLabel">Categoria</option>
+            <option value="type">Tipo</option>
+            <option value="material">Material</option>
+            <option value="system">Sistema</option>
+            <option value="diameter">Ø equivalente</option>
+          </select>
+          <p class="bim-note">A legenda aparece no canto do modelo. Clique em um item da legenda para selecionar esses elementos.</p>
+        </section>
+        <section id="ifc-explode-panel" class="bim-float hidden" aria-label="Vista explodida">
+          <label for="ifc-explode-range">Afastamento <output id="ifc-explode-value">0,0 m</output></label>
+          <input id="ifc-explode-range" type="range" min="0" max="10" step="0.1" value="0">
+          <p class="bim-note">Em 0,0 m a seleção e a caminhada voltam a funcionar.</p>
+        </section>
+        <section id="ifc-clip-panel" class="bim-float bim-float--clip hidden" aria-label="Caixa de corte">
+          <div class="bim-float__head"><span>Caixa de corte</span><button id="ifc-reset-clip" type="button" class="bim-link-button">Redefinir</button></div>
+          <div id="ifc-clip-ranges"></div>
+        </section>
+        <section id="bim-measure-panel" class="bim-float hidden" aria-label="Medição">
+          <div class="bim-segmented" role="radiogroup" aria-label="Tipo de medição">
+            <button type="button" data-measure="length" role="radio" aria-checked="false"><i class="ph ph-ruler"></i> Distância</button>
+            <button type="button" data-measure="angle" role="radio" aria-checked="false"><i class="ph ph-angle"></i> Ângulo</button>
+            <button type="button" data-measure="area" role="radio" aria-checked="false"><i class="ph ph-polygon"></i> Área</button>
+        </div>
+          <p class="bim-note"><b>Distância:</b> um clique no ponto A e outro no ponto B, com encaixe em ponto final, ponto médio, perpendicular, aresta e face. <b>Esc</b> cancela o ponto, <b>Delete</b> apaga a última medição. <b>Ângulo:</b> três cliques (ponto, vértice, ponto). <b>Área:</b> um clique por vértice, <b>Enter</b> ou clique no primeiro ponto fecha o polígono.</p>
+          <div class="bim-float__actions">
+            <button type="button" id="bim-measure-clear" class="bim-link-button">Apagar medições</button>
+            <button type="button" id="bim-measure-stop" class="bim-link-button">Encerrar</button>
+        </div>
+        </section>
+        <section id="bim-coords-panel" class="bim-float hidden" aria-label="Coordenadas">
+          <span class="bim-float__label">Coordenadas do ponto</span>
+          <p class="bim-note">Clique em qualquer ponto do modelo para ver <b>X</b>, <b>Y</b> e a cota <b>Z</b>. Os valores são copiados para a área de transferência. Encaixa em ponto final, ponto médio, aresta e face. <b>Delete</b> apaga o último ponto. Em primeira pessoa, solte o mouse com <b>Esc</b>, clique nos pontos e use o <b>botão direito</b> para voltar a caminhar.</p>
+          <div class="bim-float__actions">
+            <button type="button" id="bim-coords-clear" class="bim-link-button">Apagar pontos</button>
+            <button type="button" id="bim-coords-stop" class="bim-link-button">Encerrar</button>
+        </div>
+        </section>
+        <section id="bim-views-panel" class="bim-float hidden" aria-label="Vistas">
+          <span class="bim-float__label">Vistas prontas</span>
+          <div class="bim-standard-views">
+            <button type="button" data-std-view="iso">Isométrica</button>
+            <button type="button" data-std-view="plan">Planta</button>
+            <button type="button" data-std-view="front">Frente</button>
+            <button type="button" data-std-view="back">Fundos</button>
+            <button type="button" data-std-view="left">Esquerda</button>
+            <button type="button" data-std-view="right">Direita</button>
+        </div>
+          <span class="bim-float__label">Minhas vistas</span>
+          <form id="bim-view-form" class="bim-view-form">
+            <label class="bim-visually-hidden" for="bim-view-name">Nome da vista</label>
+            <input id="bim-view-name" type="text" maxlength="60" placeholder="Nome da vista" autocomplete="off">
+            <button type="submit" class="bim-button">Salvar vista</button>
+          </form>
+          <ul id="bim-view-list" class="bim-view-list"></ul>
+        </section>
+        <section id="bim-settings-panel" class="bim-float hidden" aria-label="Ajustes">
+          <span class="bim-float__label">Fundo</span>
+          <div class="bim-swatches">
+            <button type="button" data-color="#f2f1ec" style="--swatch:#f2f1ec" aria-label="Papel"></button>
+            <button type="button" data-color="#dfe7ec" style="--swatch:#dfe7ec" aria-label="Azul claro"></button>
+            <button type="button" data-color="#1b2633" style="--swatch:#1b2633" aria-label="Grafite"></button>
+            <input id="ifc-background-input" type="color" value="#f2f1ec" aria-label="Escolher cor de fundo">
+        </div>
+          <label class="bim-float__label" for="ifc-quality-select">Qualidade gráfica</label>
+          <select id="ifc-quality-select" class="bim-select"><option value="high">Alta</option><option value="balanced" selected>Equilibrada</option><option value="performance">Desempenho</option></select>
+          <label class="bim-check"><input type="checkbox" id="bim-spaces-toggle"> Mostrar ambientes (IfcSpace)</label>
+          <p class="bim-note">A qualidade cai temporariamente durante movimentos pesados para manter a navegação fluida.</p>
+        </section>
+      </div>
+
+      <aside id="bim-sheet" class="bim-panel bim-sheet" aria-label="Dados do elemento"></aside>
+      <section id="bim-takeoff" class="bim-panel bim-takeoff" aria-label="Quantitativos"></section>
+      <section id="bim-overview" class="bim-panel bim-overview" aria-label="Visão geral do projeto"></section>
+    </div>
+
+    <dialog id="ifc-import-scope-dialog" class="bim-dialog" aria-labelledby="ifc-import-scope-title" aria-describedby="ifc-import-scope-copy">
+      <form method="dialog" class="bim-dialog__surface">
+        <h3 id="ifc-import-scope-title">Onde abrir este IFC?</h3>
+        <p id="ifc-import-scope-copy">O arquivo é processado neste navegador e não é enviado a nenhum servidor.</p>
+        <p id="ifc-import-file-names" class="bim-dialog__files"></p>
+        <div class="bim-dialog__choices">
+          <button id="ifc-import-new-project" class="bim-choice bim-choice--primary" type="button">
+            <strong>Abrir como novo projeto</strong>
+            <span>Fecha os modelos atuais e mostra só este IFC.</span>
+          </button>
+          <button id="ifc-import-same-project" class="bim-choice" type="button">
+            <strong>Adicionar ao projeto aberto</strong>
+            <span>Federa o IFC com as disciplinas já carregadas.</span>
+          </button>
+        </div>
+        <button id="ifc-import-cancel" class="bim-link-button bim-dialog__cancel" type="submit">Cancelar</button>
+      </form>
+    </dialog>
+  </div>
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/5562981360185?text=Ol%C3%A1,%20vim%20pelo%20site%20da%20AION%20e%20gostaria%20de%20conversar!" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" title="WhatsApp AION" aria-label="WhatsApp">
+    <i class="ph-fill ph-whatsapp-logo"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer class="py-12 border-t border-border-editorial bg-paper">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-ink-muted">
+        <div>
+          <span class="font-bold text-ink">AION BIM</span> · Projetos, topografia e modelagem BIM
+        </div>
+        <div>
+          &copy; <span id="current-year">2026</span> · Todos os direitos reservados.
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="https://www.linkedin.com/company/aion-bim/" target="_blank" rel="noopener noreferrer" class="hover:text-ink transition-colors">LinkedIn</a>
+          <a href="https://www.instagram.com/aionbim/" target="_blank" rel="noopener noreferrer" class="hover:text-ink transition-colors">Instagram</a>
+          <a href="#hero" class="hover:text-ink transition-colors">Voltar ao topo ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- IFC Viewer Engine -->
+
+  <!-- Main Website Scripts -->
+  <!-- GSAP Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</body>
+</html>
